@@ -50,3 +50,5 @@ Here is the link to our Project Board!
 Here is our Domain Model
 
 ![Domain Model](img/modelDomain.png)
+
+Thank you!
