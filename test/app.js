@@ -125,23 +125,22 @@ submitBtn.addEventListener('click', () => {
 if(answer){
     if (answer==='a') {
       points+=questionArray[currentQuestion].points[0];
-
-  } else if(answer==='b') {
+    }else if(answer==='b') {
       points+=questionArray[currentQuestion].points[1];
-
-  }else if(answer==='c') {
+    }else if(answer==='c') {
       points+=questionArray[currentQuestion].points[2];
-
-  }}
+    }
   currentQuestion+=1;
+
 if(currentQuestion<questionArray.length){
   loadQuestions();
-} else if (points >20 && points<=30) {
+} else if(currentQuestion===questionArray.length) {
+  if(points >20 && points<=30){
     quiz.innerHTML = `<h2>You got ${points} points. You like adventure.</h2> <button onclick="location.reload()">Reload</button>`;
-} else if (points>10 && points<=20) {
+  }else if(points>10 && points<=20) {
     quiz.innerHTML = `<h2>You got ${points} points. You like everything.</h2> <button onclick="location.reload()">Reload</button>`;
-} else if (points>0 && points<=10) {
+  }else if (points>0 && points<=10) {
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
-}
   }
-);
+  }
+}});
