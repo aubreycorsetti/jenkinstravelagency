@@ -46,3 +46,7 @@ MVP
 
 Here is the link to our Project Board!
 [User Stories](https://trello.com/b/7IhEcyNt/leeroy-jenkins-travel-agency)
+
+Here is our Domain Model
+
+![Domain Model](img/modelDomain.png)
