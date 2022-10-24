@@ -51,4 +51,8 @@ Here is our Domain Model
 
 ![Domain Model](img/modelDomain.png)
 
+Database Schema Diagram
+
+![Schema Diagram](img/schema.png)
+
 Thank you!
