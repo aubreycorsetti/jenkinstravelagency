@@ -44,3 +44,5 @@ MVP
 
 ![About page](img/aboutWF.png)
 
+Here is the link to our Project Board!
+[User Stories](https://trello.com/b/7IhEcyNt/leeroy-jenkins-travel-agency)
