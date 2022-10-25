@@ -40,7 +40,7 @@ const questionArray = [
 ];
 
 const questionElem = document.getElementById('question');
-const answersElem = document.querySelectorAll('#response');
+const answersElem = document.querySelectorAll('.answer');
 const quiz = document.getElementById('quiz');
 
 const option_one = document.getElementsByClassName('option1');
@@ -52,18 +52,17 @@ const submitBtn = document.getElementById('submit');
 
 
 let currentQuestion = 0;
-let points=0;
 
 loadQuestions();
-
+let points=0;
 function loadQuestions() {
   deselectAnswers();
   const currentquestionArray=questionArray[currentQuestion];
-  questionElem.textContent = currentquestionArray.question;
+  questionElem.innerText = currentquestionArray.question;
   //answer options will be part of label.option element
-  /* option_one.innerHTML = '<h2>You got points. You like peaceful retreat</h2>';
-  option_two.textContent = currentquestionArray.b;
-  option_three.textContent = currentquestionArray.c; */
+  option_one.innerHTML = currentquestionArray.a;
+  option_two.innerHTML = currentquestionArray.b;
+  option_three.innerHTML = currentquestionArray.c;
 }
 
 function getSelected() {
@@ -89,17 +88,17 @@ function deselectAnswers() {
 submitBtn.addEventListener('click', () => {
   
   const answer = getSelected();
-/* if(answer){
-    if (answer==='option1') {
-      points+=questionArray[currentQuestion].points[0];
-    }else if(answer==='option2') {
-      points+=questionArray[currentQuestion].points[1];
-    }else if(answer==='option3') {
-      points+=questionArray[currentQuestion].points[2];
-    } */
-
-
-/* if(currentQuestion<questionArray.length){
+if(answer){
+    if (answer==='a') {
+      points+=1;
+    }else if(answer==='b') {
+      points+=2;
+    }else if(answer==='c') {
+      points+=3;
+    }
+  }});
+  currentQuestion++;
+if(currentQuestion<questionArray.length){
   loadQuestions();
 } else if(currentQuestion===questionArray.length) {
   if(points >20 && points<=30){
@@ -109,5 +108,4 @@ submitBtn.addEventListener('click', () => {
   }else if (points>0 && points<=10) {
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
   }
-  } */
-});
+  }

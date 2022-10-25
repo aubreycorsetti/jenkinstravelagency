@@ -40,6 +40,7 @@ background: radial-gradient(circle, rgba(221,180,159,0.25) 0%, rgba(44,44,52,1) 
     font-size: 1rem;
     display: flex;
     width: 100%;
+    justify-content: space-around;
   }
 
   button {
@@ -52,6 +53,7 @@ background: radial-gradient(circle, rgba(221,180,159,0.25) 0%, rgba(44,44,52,1) 
     padding: 1rem;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 2rem
   }
   
   div.answer-container{
@@ -64,7 +66,7 @@ background: radial-gradient(circle, rgba(221,180,159,0.25) 0%, rgba(44,44,52,1) 
     display:grid;
     max-height:640px;
     box-sizing: border-box;
-    margin-top: 1rem;
+    margin-top: 3.5rem;
     border-radius: 1rem;
     grid-template-rows: 5fr;
 
@@ -88,7 +90,7 @@ div#question{
   grid-row: 1/3;
   max-width: 80%;
   min-width: 60%;
-  margin-top: 15%;
+  margin-top: 7%;
   padding: 1.5rem;
   font-size: 2rem;
   font-family: 'Bebas Neue', sans-serif;
