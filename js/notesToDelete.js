@@ -57,31 +57,38 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 //COLD MEDIUM COST BUSY
 //PICTURED ROCKS NATIONAL LAKESHORE
+// img alt='rocksLakeShore' id='rocksLakeShore' src='img/pictured-rocks-national-lakeshore-mediumcost-busy-cold.jpeg'
 // (EXPEDIA LINK) PICTURED ROCKS NATIONAL LAKESHORE MICHIGAN
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Pictured%20Rocks%20National%20Lakeshore%2C%20Michigan%2C%20United%20States%20of%20America&endDate=2022-11-09&latLong=46.56144%2C-86.321304&regionId=6092363&rooms=1&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 //MEDIUM COST COLD NOT BUSY
 //ASHEVILLE NORTH CAROLINA
+// img id='ashville' alt='asheville' src='img/Asheville-NC-notbusy-cold-mediumcost.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Asheville%2C%20North%20Carolina%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Asheville&l10n=%5Bobject%20Object%5D&latLong=35.596382%2C-82.553177&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6034866&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 //BIG SKY MONTANA
+// img id='bigSky' alt='bigSky' src='img/BiG-SKY-MONTANA-mediumcost-notbusy-cold.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Big%20Sky%2C%20Montana%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=BIG%20SKY%20MONTANA&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=177831&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 
 //HIGH COST BUSY HOT BEACH
 
 //MIAMI BEACH
+// img alt='miamiBeach' id='miamiBeach' src='img/MIAMI-busy-highcost-hot-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Miami%20Beach%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Miami%20Beach&l10n=%5Bobject%20Object%5D&latLong=25.790653%2C-80.130043&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8833&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 //MARCO ISLAND
+// img id='marcoIsland' alt='marcoIsland' src='img/marco-island-fl-busy-highcost-hot-beach.jpeg' 
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Marco%20Island%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=MARCO%20ISLAND%20FL&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8812&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 
 //NOT BUSY HIGH COST EXPENSIVE BEACH 
 //PARROT CAY TURKS AND CAICOS
+// img id='parrotBay' alt='parrotBay' src='img/PARROT BAY TURKSANDCAICOS-expensive-notbusy-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Parrot%20Cay%2C%20North%20Caicos%2C%20Turks%20and%20Caicos&directFlights=false&endDate=2022-11-09&hotels-destination=COMO%20Parrot%20Cay&l10n=%5Bobject%20Object%5D&latLong=21.936057%2C-72.054107&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6049878&selected=551998&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 //Coco Privé, Maldives
+// img id='cocoPrive' alt='cocoPrive' src='img/Coco Privé, Maldives-highcost-notbusy-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Coco%20Priv%C3%A9%2C%20C98J%2BR4G%2C%20Kuda%20Hithi%20Island%2C%20Kuda%20Hithi%2020079%2C%20Maldives&directFlights=false&endDate=2022-11-09&hotels-destination=Coco%20Priv%C3%A9%2C%20Maldives&hotels-destination=COMO%20Parrot%20Cay&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 // medium cost hot arid high density(desert)
@@ -200,5 +207,3 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 // <img id='tybeeBeach' alt='tybeeBeach' src='img/hot-beach-mediumCost-lowDensity.jpg'>
 //   <h2>Tybee Island, Georgia</h2>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Tybee%20Island%2C%20Georgia%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Tybee%20Island%2CAspen&l10n=%5Bobject%20Object%5D&latLong=32.000215%2C-80.845666&localDateFormat=M%2Fd%2Fyyyy&neighborhood=10128&partialStay=false&price=120&price=300&regionId=10128&semdtl=&sort=RECOMMENDED&star=&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
-
-
