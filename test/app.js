@@ -110,4 +110,4 @@ submitBtn.addEventListener('click', () => {
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
   }
   } */
-});
+}});
