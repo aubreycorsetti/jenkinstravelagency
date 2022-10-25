@@ -17,6 +17,7 @@
   this.img=img;//img link
 } */
 //sample questions//
+
 const questionArray = [
   {
     question: 'How much do you want to spend for your next vacation?',
@@ -41,12 +42,12 @@ const questionArray = [
 ];
 
 const questionElem = document.getElementById('question');
-const answersElem = document.querySelectorAll('.answer');
+const answersElem = document.querySelectorAll('#response');
 const quiz = document.getElementById('quiz');
 
-const option_one = document.getElementsByClassName('option1');
-const option_two = document.getElementsByClassName('option2');
-const option_three = document.getElementsByClassName('option3');
+const option_one = document.querySelector('.option1');
+const option_two = document.querySelector('.option2');
+const option_three = document.querySelector('.option3');
 const submitBtn = document.getElementById('submit');
 
 
@@ -63,9 +64,9 @@ function loadQuestions() {
   const currentquestionArray=questionArray[currentQuestion];
   questionElem.innerText = currentquestionArray.question;
   //answer options will be part of label.option element
-  option_one.innerHTML = currentquestionArray.a;
+  /* option_one.innerHTML = currentquestionArray.a;
   option_two.innerHTML = currentquestionArray.b;
-  option_three.innerHTML = currentquestionArray.c;
+  option_three.innerHTML = currentquestionArray.c; */
 }
 
 function getSelected() {
