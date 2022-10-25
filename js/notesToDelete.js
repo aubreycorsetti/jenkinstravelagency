@@ -88,19 +88,19 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Marco%20Island%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=MARCO%20ISLAND%20FL&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8812&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 
-//NOT BUSY HIGH COST EXPENSIVE BEACH 
+//NOT BUSY HIGH COST EXPENSIVE BEACH
 //PARROT CAY TURKS AND CAICOS
-//<p></p>
+//<p>Parrot Cay by in the Turks and Caicos is the northern Caribbean’s preeminent private island. It combines nature with 1000 unspoilt acres, a mile-long powdered beach—with relaxed luxury and multi-award-winning five star resorts. As is also the case with many of the surrounding cays, much of the south side of the island is marine wetlands that support a dense network of red mangroves. And in a few spots, low limestone ironshore coastline stands vertically in places as well. </p>
 // img id='parrotBay' alt='parrotBay' src='img/PARROT BAY TURKSANDCAICOS-expensive-notbusy-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Parrot%20Cay%2C%20North%20Caicos%2C%20Turks%20and%20Caicos&directFlights=false&endDate=2022-11-09&hotels-destination=COMO%20Parrot%20Cay&l10n=%5Bobject%20Object%5D&latLong=21.936057%2C-72.054107&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6049878&selected=551998&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 //Coco Privé, Maldives
-//<p></p>
+//<p>Home to the world's billionaires when they travel this private island has it all. Stunning views in every direction create a peaceful and romantic ambience, especially at night. Five star restaurants with exclusively stocked wine cellars dot the island.  The diverse mix of guests spend time at the various restaurants, two open-air lounges for drinks, spa and fitness center with water views, uncrowded infinity pool, and partaking in activities like scuba diving or snorkeling in the lagoon. Most guests tend to retire to their villas after the evening meal offering quiet solitude in the evenings.</p>
 // img id='cocoPrive' alt='cocoPrive' src='img/Coco Privé, Maldives-highcost-notbusy-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Coco%20Priv%C3%A9%2C%20C98J%2BR4G%2C%20Kuda%20Hithi%20Island%2C%20Kuda%20Hithi%2020079%2C%20Maldives&directFlights=false&endDate=2022-11-09&hotels-destination=Coco%20Priv%C3%A9%2C%20Maldives&hotels-destination=COMO%20Parrot%20Cay&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 // medium cost hot arid high density(desert)
-//<p></p>
+//<p>From the stirring beauty of our lush Sonoran Desert to our luxury resorts, chef-driven restaurants and exciting activities and attractions, Scottsdale is bursting at the seams with the makings of a memorable getaway. Being nestled on the southern border of the Tonto National Forest gives Scottsdale access to world class mountain bike and hiking trails. </p>
 // Scottsdale, AZ
 // expedia link (https://www.expedia.com/Scottsdale-Hotels.d9829.Travel-Guide-Hotels)
 // <img id='mediumScott' alt='mediumScott' src='https://images.unsplash.com/photo-1638398415609-14d9b0fee25e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'>
