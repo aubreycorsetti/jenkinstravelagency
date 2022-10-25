@@ -64,12 +64,12 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 //MEDIUM COST COLD NOT BUSY
 
-//ASHEVILLE NORTH CAROLINA
+// <h2>Asheville, North Carolina</h2>
 //<p>Loacted in the mountains of western North Carolina, Asheville offers a quaint and scenic view of intersection where the French Broad and Swannanoa rivers meet. Asheville offers an abudance of outdoor activies year round including fishing, hiking, adventuring, water sports or skiing depending on the season. The dining scene is vibrant and the options seem endless.</p>
 // img id='ashville' alt='asheville' src='img/Asheville-NC-notbusy-cold-mediumcost.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Asheville%2C%20North%20Carolina%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Asheville&l10n=%5Bobject%20Object%5D&latLong=35.596382%2C-82.553177&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6034866&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
-//BIG SKY MONTANA
+// <h2>Big Sky, Montana</h2>
 //<p>Big Sky is home to the Biggest Skiing in America with more than 5,800 acres of skiable terrain spread across four mountains, 4,350 vertical feet, and 85 km of award-winning Nordic trails. Big Sky Meadow offers some of the best trout fly fishing in the continental US. Lone Peak towers above the town creating magestic sunsets and sunrises. Big Sky has the added benefit of being a relatively short trip to West Yellowstone Entrance and offers tours leaving and returning to Big Sky.</p>
 // img id='bigSky' alt='bigSky' src='img/BiG-SKY-MONTANA-mediumcost-notbusy-cold.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Big%20Sky%2C%20Montana%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=BIG%20SKY%20MONTANA&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=177831&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
@@ -77,45 +77,46 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 //HIGH COST BUSY HOT BEACH
 
-//MIAMI BEACH
+// <h2>Miami Beach, Florida</h2>
 //<p>Miami Beach encompasses the man-made barrier islands between the Atlantic Ocean and Biscayne Bay. It is probably most famous for being the city that South Beach is locasted in. The night life is vibrant, exclusive, and celebrity filled. One unique aesthetic attribute of South Beach is the presence of several colorful and unique stands used by Miami Beach's lifeguards. The "foodie" scene is a growing part of the night life and includes several Michelin starred restaurants.</p>
 // img alt='miamiBeach' id='miamiBeach' src='img/MIAMI-busy-highcost-hot-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Miami%20Beach%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Miami%20Beach&l10n=%5Bobject%20Object%5D&latLong=25.790653%2C-80.130043&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8833&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
-//MARCO ISLAND
+// <h2>Marco Island, Florida</h2>
 //<p> </p>
 // img id='marcoIsland' alt='marcoIsland' src='img/marco-island-fl-busy-highcost-hot-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Marco%20Island%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=MARCO%20ISLAND%20FL&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8812&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 
 //NOT BUSY HIGH COST EXPENSIVE BEACH
-//PARROT CAY TURKS AND CAICOS
+// <h2>Parrot Cay Turks And Caicos</h2>
 //<p>Parrot Cay by in the Turks and Caicos is the northern Caribbean’s preeminent private island. It combines nature with 1000 unspoilt acres, a mile-long powdered beach—with relaxed luxury and multi-award-winning five star resorts. As is also the case with many of the surrounding cays, much of the south side of the island is marine wetlands that support a dense network of red mangroves. And in a few spots, low limestone ironshore coastline stands vertically in places as well. </p>
 // img id='parrotBay' alt='parrotBay' src='img/PARROT BAY TURKSANDCAICOS-expensive-notbusy-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Parrot%20Cay%2C%20North%20Caicos%2C%20Turks%20and%20Caicos&directFlights=false&endDate=2022-11-09&hotels-destination=COMO%20Parrot%20Cay&l10n=%5Bobject%20Object%5D&latLong=21.936057%2C-72.054107&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6049878&selected=551998&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
-//Coco Privé, Maldives
+// <h2>Coco Privé, Maldives</H2>
 //<p>Home to the world's billionaires when they travel this private island has it all. Stunning views in every direction create a peaceful and romantic ambience, especially at night. Five star restaurants with exclusively stocked wine cellars dot the island.  The diverse mix of guests spend time at the various restaurants, two open-air lounges for drinks, spa and fitness center with water views, uncrowded infinity pool, and partaking in activities like scuba diving or snorkeling in the lagoon. Most guests tend to retire to their villas after the evening meal offering quiet solitude in the evenings.</p>
 // img id='cocoPrive' alt='cocoPrive' src='img/Coco Privé, Maldives-highcost-notbusy-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Coco%20Priv%C3%A9%2C%20C98J%2BR4G%2C%20Kuda%20Hithi%20Island%2C%20Kuda%20Hithi%2020079%2C%20Maldives&directFlights=false&endDate=2022-11-09&hotels-destination=Coco%20Priv%C3%A9%2C%20Maldives&hotels-destination=COMO%20Parrot%20Cay&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 // medium cost hot arid high density(desert)
-//<p>From the stirring beauty of our lush Sonoran Desert to our luxury resorts, chef-driven restaurants and exciting activities and attractions, Scottsdale is bursting at the seams with the makings of a memorable getaway. Being nestled on the southern border of the Tonto National Forest gives Scottsdale access to world class mountain bike and hiking trails. </p>
-// Scottsdale, AZ
+
+// <h2>Scottsdale, AZ</h2>
+//<p>From the stirring beauty of our lush Sonoran Desert to our luxury resorts, chef-driven restaurants and exciting activities and attractions, Scottsdale is bursting at the seams with the makings of a memorable getaway. Being nestled on the southern border of the Tonto National Forest gives Scottsdale access to world class mountain bike and hiking trails. Scottsdale also has some of the nicest golf courses in the country and hosts the Phoenix Open Golf Tournament held at the Tournament Players Club every year.</p> 
 // expedia link (https://www.expedia.com/Scottsdale-Hotels.d9829.Travel-Guide-Hotels)
 // <img id='mediumScott' alt='mediumScott' src='https://images.unsplash.com/photo-1638398415609-14d9b0fee25e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'>
-// Palm Springs, CA
-//<p></p>
+// <h2>Palm Springs, California</h2>
+//<p>Most often described as a small city with the cultural amenities of an urban area, the shopping, entertainment, dining and recreational opportunities are first-class. Palm Springs lies on the western edge of the Coachella Valley in central Riverside County approximately 107 miles east of Los Angeles. From the desert floor you can travel 8,500 feet up Mt. San Jacinto aboard the Palm Springs Aerial Tramway as it makes the very scenic trip to its mountain station in about 15 minutes. You can cruise the one-way strip lined with antique shops, art galleries, boutiques, restaurants and night clubs or, better yet, enjoy the downtown on foot and see the names of many Hollywood legends that grace the Walk of Stars.</p>
 // expedia link (https://www.expedia.com/Hotel-Search?GOTO=HOTSEARCH&SearchArea=City&SearchType=Place&adults=2&destination=Palm%20Springs%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-10-28&hotels-destination=Palm%20Springs&l10n=%5Bobject%20Object%5D&latLong=33.82308%2C-116.54549&localDateFormat=M%2Fd%2Fyyyy&needUTF8Decode=true&partialStay=false&regionId=180676&rfrr=hotel.search&semdtl=&sort=RECOMMENDED&startDate=2022-10-27&theme=&ttla=PHX&useRewards=false&userIntent=)
 // <img id='mediumPalm' alt='mediumPalm' src='https://images.unsplash.com/photo-1666081476728-ae9cf381bd1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'>
 
 // medium cost high arid low density(desert)
-// Sedona, AZ
-//<p></p>
+// <h2>Sedona, Arizona</h2>
+//<p>Sedona is an Arizona desert town that is surrounded by red-rock buttes, steep canyon walls and pine forests. Uptown Sedona is full of New Age shops, art galleries, day spas, and boutique shopa & restaurants. Sedona is home to the nationally recognized McDonald's with turquoise arches, instead of the traditional Golden Arches. Sedona is also noted for its many festivals and art shows including native pottery made by the Sinaguan Tribe.</p>
 // expedia link (https://www.expedia.com/Hotel-Search?GOTO=HOTSEARCH&SearchArea=City&SearchType=Place&adults=2&children=&destination=Sedona%2C%20Arizona%2C%20United%20States%20of%20America&endDate=2022-10-28&lang=1033&latLong=34.86967%2C-111.76097&needUTF8Decode=true&regionId=6054771&rfrr=hotel.search&selected=&semdtl=&sort=RECOMMENDED&startDate=2022-10-27&theme=&ttla=PHX&useRewards=false&userIntent=)
 //<img id='mediumSedona' alt='mediumSedona' src='https://images.unsplash.com/photo-1575408264798-b50b252663e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1353&q=80'
-// Mojave Desert, CA
-//<p></p>
+// <h2>Mojave Desert, California</h2>
+//<p>The Mojave Desert, together with the Sonoran, Chihuahuan, and Great Basin deserts, forms a larger North American Desert. Of these, the Mojave is the smallest and driest. The Mojave Desert is bordered by the San Andreas fault to the Southwest. The Mojave Desert has several ghost towns. The most significant are the silver and copper-mining town of Calico, California, and the old railroad depot of Kelso, California. This general region does include the greater Las Vegas area.</p>
 // expedia link(https://www.expedia.com/Hotel-Search?GOTO=HOTSEARCH&SearchArea=City&SearchType=Place&adults=2&destination=Mojave%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-10-28&guestRating=40&hotelName=&hotels-destination=Mojave%2CAnna%20Maria%20Island&l10n=%5Bobject%20Object%5D&latLong=35.052406%2C-118.166986&localDateFormat=M%2Fd%2Fyyyy&needUTF8Decode=true&neighborhood=6094973&partialStay=false&price=0&price=300&regionId=6094973&rfrr=hotel.search&semdtl=&sort=RECOMMENDED&startDate=2022-10-27&theme=&ttla=PHX&useRewards=false&userIntent=)
 //<img id='mediumMojave' alt='mediumMojave' src='https://images.unsplash.com/photo-1516417156595-3ca5df62a3a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80'>
 
@@ -227,7 +228,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Seven%20Mile%20Beach%2C%20Negril%2C%20Jamaica&directFlights=false&endDate=2022-11-09&hotels-destination=Seven%20Mile%20Beach&hotels-destination=Aspen&l10n=%5Bobject%20Object%5D&latLong=18.298418%2C-78.339204&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=0%2C300&regionId=6078279&semdtl=&sort=RECOMMENDED&star=50&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 // <img id='rivieraMaya' alt='rivieraMaya' src='img/hot-mediumPrice-beach-notbusy.jpg'>
-//   <h2>Riviera Maya, Mexico<</h2>
+//   <h2>Riviera Maya, Mexico</h2>
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Riviera%20Maya%2C%20Mexico&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Riviera%20Maya%2CAspen&l10n=%5Bobject%20Object%5D&latLong=20.553629%2C-87.167038&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=150&price=300&regionId=602901&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 
