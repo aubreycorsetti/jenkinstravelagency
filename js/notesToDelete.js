@@ -84,7 +84,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 //MARCO ISLAND
 //<p> </p>
-// img id='marcoIsland' alt='marcoIsland' src='img/marco-island-fl-busy-highcost-hot-beach.jpeg' 
+// img id='marcoIsland' alt='marcoIsland' src='img/marco-island-fl-busy-highcost-hot-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Marco%20Island%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=MARCO%20ISLAND%20FL&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8812&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 
