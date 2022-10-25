@@ -55,4 +55,51 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=San%20Antonio%20%28and%20vicinity%29%2C%20Texas%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&l10n=%5Bobject%20Object%5D&latLong=29.42362%2C-98.4873&localDateFormat=M%2Fd%2Fyyyy&neighborhood=178303&partialStay=false&price=0&price=90&regionId=178303&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 // <p>San Antonio is the city of authenticity. Where Real Fun and True Adventure are just outside your door. Whether you visit the Alamo or take a walk down the river shopping district there a ton of lower cost options for entertainment including a Six Flags Fiesta Texas and the San Antonio Zoo. San Antonio is a city rich with both history and diversity.</p>
 
+// medium cost hot arid high density(desert)
+// Scottsdale, AZ
+// expedia link (https://www.expedia.com/Scottsdale-Hotels.d9829.Travel-Guide-Hotels)
+// <img id='mediumScott' alt='mediumScott' src='https://images.unsplash.com/photo-1638398415609-14d9b0fee25e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'>
+// Palm Springs, CA
+// expedia link (https://www.expedia.com/Hotel-Search?GOTO=HOTSEARCH&SearchArea=City&SearchType=Place&adults=2&destination=Palm%20Springs%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-10-28&hotels-destination=Palm%20Springs&l10n=%5Bobject%20Object%5D&latLong=33.82308%2C-116.54549&localDateFormat=M%2Fd%2Fyyyy&needUTF8Decode=true&partialStay=false&regionId=180676&rfrr=hotel.search&semdtl=&sort=RECOMMENDED&startDate=2022-10-27&theme=&ttla=PHX&useRewards=false&userIntent=)
+// <img id='mediumPalm' alt='mediumPalm' src='https://images.unsplash.com/photo-1666081476728-ae9cf381bd1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'>
 
+// medium cost high arid low density(desert)
+// Sedona, AZ
+// expedia link (https://www.expedia.com/Hotel-Search?GOTO=HOTSEARCH&SearchArea=City&SearchType=Place&adults=2&children=&destination=Sedona%2C%20Arizona%2C%20United%20States%20of%20America&endDate=2022-10-28&lang=1033&latLong=34.86967%2C-111.76097&needUTF8Decode=true&regionId=6054771&rfrr=hotel.search&selected=&semdtl=&sort=RECOMMENDED&startDate=2022-10-27&theme=&ttla=PHX&useRewards=false&userIntent=)
+//<img id='mediumSedona' alt='mediumSedona' src='https://images.unsplash.com/photo-1575408264798-b50b252663e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1353&q=80'
+// Mojave Desert, CA
+// expedia link(https://www.expedia.com/Hotel-Search?GOTO=HOTSEARCH&SearchArea=City&SearchType=Place&adults=2&destination=Mojave%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-10-28&guestRating=40&hotelName=&hotels-destination=Mojave%2CAnna%20Maria%20Island&l10n=%5Bobject%20Object%5D&latLong=35.052406%2C-118.166986&localDateFormat=M%2Fd%2Fyyyy&needUTF8Decode=true&neighborhood=6094973&partialStay=false&price=0&price=300&regionId=6094973&rfrr=hotel.search&semdtl=&sort=RECOMMENDED&startDate=2022-10-27&theme=&ttla=PHX&useRewards=false&userIntent=)
+//<img id='mediumMojave' alt='mediumMojave' src='https://images.unsplash.com/photo-1516417156595-3ca5df62a3a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80'>
+
+// high cost hot arid low density(x2)
+// The Hoggar Mountains, Algeria
+// expedia link(https://www.expedia.com/Tamanrasset.d3485.Destination-Travel-Guides)
+// <img id='highAlgeria' alt='highAlgeria' src='https://upload.wikimedia.org/wikipedia/commons/2/2a/%D8%A7%D8%B3%D9%83%D8%B1%D8%A7%D9%85_2_-_%D8%AA%D9%85%D9%86%D8%B1%D8%A7%D8%B3%D8%AA.jpg'>
+// Sahara Desert, Egypt
+//expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Sahara%20Desert&directFlights=false&endDate=2022-11-09&guestRating=45&hotelName=&l10n=%5Bobject%20Object%5D&latLong=23.416203%2C25.66283&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=0&price=300&regionId=553248635976197901&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
+//<img id='highEgypt' alt='highEgypt' src='https://images.unsplash.com/photo-1486314030120-d5ab85fe58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80'>
+
+// high cost hot arid high density(x2)
+// Dubai, UAE
+//expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Dubai%2C%20United%20Arab%20Emirates&directFlights=false&endDate=2022-11-09&hotels-destination=Dubai&l10n=%5Bobject%20Object%5D&latLong=25.110714%2C55.394882&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=1079&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
+//<img id='highDubai' alt='highDubai' src='https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'>
+// Cairo, Egypt
+//expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Cairo%20%28and%20vicinity%29%2C%20Egypt&directFlights=false&endDate=2022-11-09&guestRating=45&hotelName=&hotels-destination=Cairo&l10n=%5Bobject%20Object%5D&latLong=30.044437%2C31.235711&localDateFormat=M%2Fd%2Fyyyy&neighborhood=178243&partialStay=false&price=0&price=300&regionId=178243&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
+//<img id='highCiaro' alt='highCiaro' src='https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'>
+
+//hot tropical medium cost low density
+// South Padre Island, TX
+// expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=South%20Padre%20Island%2C%20Texas%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=40&hotelName=&hotels-destination=South%20Padre%20Island&l10n=%5Bobject%20Object%5D&latLong=26.111839%2C-97.168129&localDateFormat=M%2Fd%2Fyyyy&neighborhood=6046797&partialStay=false&price=0&price=300&regionId=6046797&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
+// <img id='mediumPadre' alt='mediumPadre' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ouZ6ha9SXcFMu2qFcR66de63B_WLNpzbPA&usqp=CAU'>
+
+// Hilton Head Island, South Carolina
+// expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Hilton%20Head%20Island%2C%20South%20Carolina%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Hilton%20Head%20Island&l10n=%5Bobject%20Object%5D&latLong=32.15592%2C-80.76201&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=601684&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
+// <img id='mediumHiltion' alt='mediumHiltion' src='https://ygt-res.cloudinary.com/image/upload/c_fit,h_1280,q_80,w_1920/v1614085108/Venues/Omni%20Hilton%20Head%20Oceanfront%20Resort/omni-hilton-head-oceanfront-resort-1.jpg'
+
+// hot tropical medium cost high density
+// Orlando, FL
+// expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Orlando%20%28and%20vicinity%29%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Orlando&l10n=%5Bobject%20Object%5D&latLong=28.54129%2C-81.37904&localDateFormat=M%2Fd%2Fyyyy&neighborhood=178294&partialStay=false&price=0&price=300&regionId=178294&semdtl=&sort=RECOMMENDED&star=30&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
+// <img id='mediumOrlando' alt='mediumOrlando' src='https://images.unsplash.com/photo-1617409123168-8fb039dd3b39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3JsYW5kbyUyMGZsb3JpZGF8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60'>
+//Santa Cruz, CA
+//expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Santa%20Cruz%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Santa%20Cruz&l10n=%5Bobject%20Object%5D&latLong=36.978189%2C-122.024464&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6666&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
+//<img id='mediumSanta' alt='mediumSanta' src='https://images.unsplash.com/photo-1564431562676-5aac4688f96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1438&q=80'>
