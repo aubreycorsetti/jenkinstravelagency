@@ -1,73 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link rel="stylesheet" href="css/style.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Bungee+Hairline&family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Bungee+Hairline&family=Oswald:wght@500&display=swap"
+    rel="stylesheet">
 
   <meta charset="UTF-8">
-  <title>Jenkins Travel Recommendations</title>
+  <style>  
+    body  
+    {  
+    background-image:url("img/welcome2.avif");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    }  
+    </style>  
 </head>
 
-
-
-<body class="container">
-  
-<header>
-  
-  <menu class="menubar">
-  this is where the menu goes
-  </menu>
-</header>
-
-<main>  
-  <div class="question-container">
-    <div class="slider">
-      <div class="slides">
-        <div class="slide">1</div>
-        <div class="slide">2</div>
-        <div class="slide">3</div>
-        <div class="slide">4</div>
-        <div class="slide">5</div>
-        <div class="slide">6</div>
-        <div class="slide">7</div>
-        <div class="slide">8</div>
-        <div class="slide">9</div>
-        <div class="slide">10</div>
-      </div>
-    <div class="constrols">
-      
+<body>
+  <header>
+  </header>
+  <main>
+    <div class="fade-in">
+      <img src="img/leeroy_jenkinslogo.jpeg" alt="LeeRoy Jenkins travel recommendations logo" height="320px">
     </div>
-  </div>
+    <section class="intro">
+      <p> To discover what destination fits your needs best, please fill out the required information below.</p>
+    </section>
+    <section class="form">
+      <aside>
+        <form action="questionpage.html">
+          <fieldset>
+            <label>Name: <input type="text" name="Name" placeholder="Ex: Leeroy Jenkins" required>
+              <button type="submit">Submit</button>
+            </label>
+          </fieldset>
+        </form>
+      </aside>
+    </section>
+  </main>
+  <footer>
+<p> &copy Jenkins Travel Recommendations</p>
+  </footer>
 
-
-      <!-- <div id="qbox">
-        Question placeholder
-      </div>
-      <ul id="travelquestion">
-        <li><input type="radio" name="question" class="button q1">option1</button></li>
-        <li><input type="radio" name="question" class="button q2">option2</button></li>
-        <li><input type="radio" name="question" class="button q3">option3</button></li>
-      </ul> -->
-    
-    
-    <div class="btns">
-      <button class="previous-btn">
-        Previous Question
-      </button> 
-      <button class="next-btn">
-        Next Question
-      </button>   
-    </div>
-</div>
-</main>
-<footer>
-  
-</footer>
-  
 </body>
-<script src="js/app.js" defe></script> 
+<script src="js/app.js" defe></script>
+</body>
 </html>
