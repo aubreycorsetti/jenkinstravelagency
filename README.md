@@ -25,6 +25,7 @@ MVP
 * results in a table format with destination information
 * a way to log clicks in local storage/get storage
 
+
 ### WIRE-FRAME
 
 1. Landing page. This page is where we take the users information and provide a welcome screen.
