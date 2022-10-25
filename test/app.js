@@ -1,11 +1,27 @@
 /* eslint-disable indent */
+/* function Question(text, response1, response2, response3){
+  this.text=text;
+  this.response1=response1;
+  this.response2=response2;
+  this.response3=response3;
+} */
+
+
+//constructor function
+/* function Destination(price, climate, density, location.img){
+  this.price=price;//low,medium,high
+  this.climate=climate;//warmer,colder
+  this.density=density;//rowdy, serenity
+  this.location=location//beach, troipical, desert
+  this.img=img;//img link
+} */
+
 const questionArray = [
   {
-    question: 'How old are you?',
-    a: 'Under 21',
-    b: 'Over 21',
-    c: 'NOYB',
-    points: [3, 1, 2],
+    question: 'How much do you want to spend for your next vacation?',
+    a: '$3000+',
+    b: '$1000-$3000',
+    c: '<$1000',
   },
   {
     question: 'I like to talk to a lot of different people if I go to a party.',
@@ -21,68 +37,18 @@ const questionArray = [
     c: 'Disagree',
     points: [1, 2, 3],
   },
-
-  {
-    question: 'I enjoy being the first person to experience somthing.',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [1, 2, 3],
-  },
-  {
-    question: 'I get nervous easily in unfamiliar places.',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [3, 2, 1],
-  },
-  {
-    question:
-      'I would rather sit by the pool than go for a hike.',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [3, 2, 1],
-  },
-  {
-    question:
-      'I like to be comfortable',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [3, 2, 1],
-  },
-  {
-    question: 'I like a consistent routine in my daily life.',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [3, 2, 1],
-  },
-  {
-    question:'I go out socially with freinds quite often.',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [1, 2, 3],
-  },
-  {
-    question: 'I prefer to go to undiscovered places before big hotels and restaurants are built.',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [1, 2, 3],
-  }
 ];
 
 const questionElem = document.getElementById('question');
-const answersElem = document.querySelectorAll('.answer');
+const answersElem = document.querySelectorAll('#response');
 const quiz = document.getElementById('quiz');
 
-const option_a = document.getElementById('option_a');
-const option_b = document.getElementById('option_b');
-const option_c = document.getElementById('option_c');
+const option_one = document.getElementsByClassName('option1');
+const option_two = document.getElementsByClassName('option2');
+const option_three = document.getElementsByClassName('option3');
 const submitBtn = document.getElementById('submit');
+
+
 
 
 let currentQuestion = 0;
@@ -95,9 +61,9 @@ function loadQuestions() {
   const currentquestionArray=questionArray[currentQuestion];
   questionElem.textContent = currentquestionArray.question;
   //answer options will be part of label.option element
-  option_a.textContent = currentquestionArray.a;
-  option_b.textContent = currentquestionArray.b;
-  option_c.textContent = currentquestionArray.c;
+  /* option_one.innerHTML = '<h2>You got points. You like peaceful retreat</h2>';
+  option_two.textContent = currentquestionArray.b;
+  option_three.textContent = currentquestionArray.c; */
 }
 
 function getSelected() {
@@ -121,18 +87,19 @@ function deselectAnswers() {
 }
 
 submitBtn.addEventListener('click', () => {
+  
   const answer = getSelected();
-if(answer){
-    if (answer==='a') {
+/* if(answer){
+    if (answer==='option1') {
       points+=questionArray[currentQuestion].points[0];
-    }else if(answer==='b') {
+    }else if(answer==='option2') {
       points+=questionArray[currentQuestion].points[1];
-    }else if(answer==='c') {
+    }else if(answer==='option3') {
       points+=questionArray[currentQuestion].points[2];
-    }
-  currentQuestion+=1;
+    } */
 
-if(currentQuestion<questionArray.length){
+
+/* if(currentQuestion<questionArray.length){
   loadQuestions();
 } else if(currentQuestion===questionArray.length) {
   if(points >20 && points<=30){
@@ -142,5 +109,5 @@ if(currentQuestion<questionArray.length){
   }else if (points>0 && points<=10) {
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
   }
-  }
-}});
+  } */
+});
