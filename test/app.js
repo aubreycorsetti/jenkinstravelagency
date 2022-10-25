@@ -8,15 +8,14 @@
 
 
 //constructor function
-/* function Destination(name,price, climate, density, location, img){
-  this.name=name;
+/* function Destination(price, climate, density, location.img){
   this.price=price;//low,medium,high
   this.climate=climate;//warmer,colder
   this.density=density;//rowdy, serenity
-  this.location=location//beach, tropical, desert
+  this.location=location//beach, troipical, desert
   this.img=img;//img link
 } */
-//sample questions//
+
 const questionArray = [
   {
     question: 'How much do you want to spend for your next vacation?',
@@ -41,7 +40,7 @@ const questionArray = [
 ];
 
 const questionElem = document.getElementById('question');
-const answersElem = document.querySelectorAll('.answer');
+const answersElem = document.querySelectorAll('#response');
 const quiz = document.getElementById('quiz');
 
 const option_one = document.getElementsByClassName('option1');
@@ -57,15 +56,14 @@ let points=0;
 
 loadQuestions();
 
-
 function loadQuestions() {
   deselectAnswers();
   const currentquestionArray=questionArray[currentQuestion];
-  questionElem.innerText = currentquestionArray.question;
+  questionElem.textContent = currentquestionArray.question;
   //answer options will be part of label.option element
-  option_one.innerHTML = currentquestionArray.a;
-  option_two.innerHTML = currentquestionArray.b;
-  option_three.innerHTML = currentquestionArray.c;
+  /* option_one.innerHTML = '<h2>You got points. You like peaceful retreat</h2>';
+  option_two.textContent = currentquestionArray.b;
+  option_three.textContent = currentquestionArray.c; */
 }
 
 function getSelected() {
@@ -89,21 +87,21 @@ function deselectAnswers() {
 }
 
 submitBtn.addEventListener('click', () => {
+  
   const answer = getSelected();
-if(answer){
-    if (answer==='a') {
-      points++;
-    }else if(answer==='b') {
-      points++;
-    }else if(answer==='c') {
-      points++;
-    }
-  }});
-  currentQuestion++;
-if(currentQuestion<questionArray.length){
+/* if(answer){
+    if (answer==='option1') {
+      points+=questionArray[currentQuestion].points[0];
+    }else if(answer==='option2') {
+      points+=questionArray[currentQuestion].points[1];
+    }else if(answer==='option3') {
+      points+=questionArray[currentQuestion].points[2];
+    } */
+
+
+/* if(currentQuestion<questionArray.length){
   loadQuestions();
-  //these are sample results
-} /* else if(currentQuestion===questionArray.length) {
+} else if(currentQuestion===questionArray.length) {
   if(points >20 && points<=30){
     quiz.innerHTML = `<h2>You got ${points} points. You like adventure.</h2> <button onclick="location.reload()">Reload</button>`;
   }else if(points>10 && points<=20) {
@@ -112,3 +110,4 @@ if(currentQuestion<questionArray.length){
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
   }
   } */
+});
