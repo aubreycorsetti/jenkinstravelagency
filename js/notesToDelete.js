@@ -104,7 +104,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //Santa Cruz, CA
 //expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Santa%20Cruz%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Santa%20Cruz&l10n=%5Bobject%20Object%5D&latLong=36.978189%2C-122.024464&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6666&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 //<img id='mediumSanta' alt='mediumSanta' src='https://images.unsplash.com/photo-1564431562676-5aac4688f96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1438&q=80'>
-=======
+
 // cold not busy high cost:
 // <img id='iceHotel' alt='iceHotel' src='img/cold-lowDensity-highCost.jpg'>
 //   <h2>Kirkenes, Norway</h2>
@@ -146,7 +146,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //   <h2>Laucala Island, Fiji</h2>
 // expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Laucala%20Island%2C%20Northern%20Division%2C%20Fiji&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Laucala%20Island%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=8595&partialStay=false&price=90&price=300&regionId=8595&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 
-// 2 busy high cost tropical 
+// 2 busy high cost tropical
 // <img id='hawaii' alt='hawaii' src='img/hot-tropical-highCost2-busy.jpg'>
 // <h2>Kauai, Hawaii</h2>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Kauai%2C%20Hawaii%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Kauai%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=150&price=300&regionId=180075&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
