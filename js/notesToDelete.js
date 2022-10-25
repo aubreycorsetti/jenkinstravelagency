@@ -227,7 +227,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Seven%20Mile%20Beach%2C%20Negril%2C%20Jamaica&directFlights=false&endDate=2022-11-09&hotels-destination=Seven%20Mile%20Beach&hotels-destination=Aspen&l10n=%5Bobject%20Object%5D&latLong=18.298418%2C-78.339204&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=0%2C300&regionId=6078279&semdtl=&sort=RECOMMENDED&star=50&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 // <img id='rivieraMaya' alt='rivieraMaya' src='img/hot-mediumPrice-beach-notbusy.jpg'>
-//   <h2>Riviera Maya, Mexico<</h2>
+//   <h2>Riviera Maya, Mexico</h2>
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Riviera%20Maya%2C%20Mexico&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Riviera%20Maya%2CAspen&l10n=%5Bobject%20Object%5D&latLong=20.553629%2C-87.167038&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=150&price=300&regionId=602901&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 
