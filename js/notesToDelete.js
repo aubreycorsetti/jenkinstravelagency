@@ -238,7 +238,10 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //   <h2>Key West, Florida</h2>
 /* <p></p> */
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Key%20West%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=key%20west%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=1187&partialStay=false&price=150&price=300&regionId=1187&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
+<p>Key West Florida. For around $150+ a night, you can experience on of the most premier travel destinations that Florida has to offer. </p>
+
 // <img id='tybeeBeach' alt='tybeeBeach' src='img/hot-beach-mediumCost-lowDensity.jpg'>
 //   <h2>Tybee Island, Georgia</h2>
 /* <p></p> */
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Tybee%20Island%2C%20Georgia%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Tybee%20Island%2CAspen&l10n=%5Bobject%20Object%5D&latLong=32.000215%2C-80.845666&localDateFormat=M%2Fd%2Fyyyy&neighborhood=10128&partialStay=false&price=120&price=300&regionId=10128&semdtl=&sort=RECOMMENDED&star=&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
+//<p>Tybee Island is a barrier Island in Savannah Georgia, facing due east. It is home to clean beaches, and miles of beautiful sand barriers. It is the perfect summertime destination for those seeking fun on the beach! Towards the southern tip of the island is the bustling and iconic Tybrisa steet! This vibrant street is a place where tourist and locals alike, come to dine, shop and stay. You'll have no trouble fining rooms for $120 a night or less, ensuring an adventure of fun for the entire family.</p>
