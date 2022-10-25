@@ -8,14 +8,15 @@
 
 
 //constructor function
-/* function Destination(price, climate, density, location.img){
+/* function Destination(name,price, climate, density, location, img){
+  this.name=name;
   this.price=price;//low,medium,high
   this.climate=climate;//warmer,colder
   this.density=density;//rowdy, serenity
-  this.location=location//beach, troipical, desert
+  this.location=location//beach, tropical, desert
   this.img=img;//img link
 } */
-
+//sample questions//
 const questionArray = [
   {
     question: 'How much do you want to spend for your next vacation?',
@@ -52,9 +53,11 @@ const submitBtn = document.getElementById('submit');
 
 
 let currentQuestion = 0;
+let points=0;
 
 loadQuestions();
-let points=0;
+
+
 function loadQuestions() {
   deselectAnswers();
   const currentquestionArray=questionArray[currentQuestion];
@@ -86,21 +89,21 @@ function deselectAnswers() {
 }
 
 submitBtn.addEventListener('click', () => {
-  
   const answer = getSelected();
 if(answer){
     if (answer==='a') {
-      points+=1;
+      points++;
     }else if(answer==='b') {
-      points+=2;
+      points++;
     }else if(answer==='c') {
-      points+=3;
+      points++;
     }
   }});
   currentQuestion++;
 if(currentQuestion<questionArray.length){
   loadQuestions();
-} else if(currentQuestion===questionArray.length) {
+  //these are sample results
+} /* else if(currentQuestion===questionArray.length) {
   if(points >20 && points<=30){
     quiz.innerHTML = `<h2>You got ${points} points. You like adventure.</h2> <button onclick="location.reload()">Reload</button>`;
   }else if(points>10 && points<=20) {
@@ -108,4 +111,4 @@ if(currentQuestion<questionArray.length){
   }else if (points>0 && points<=10) {
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
   }
-  }
+  } */

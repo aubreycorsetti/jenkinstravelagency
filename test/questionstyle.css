@@ -7,10 +7,9 @@
   font-family: 'Bebas Neue', cursive;
   font-family: 'Bungee Hairline', cursive;
   font-family: 'Oswald', sans-serif;
-  background-image: 'test/welcome2.jpeg';
   }
   body{
-    background-image: url('welcome2.jpeg');
+    background-image: url('../img/welcome2.jpeg');
     background-repeat:no-repeat;
     background-size: cover;
     box-sizing: border-box;
