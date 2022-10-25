@@ -100,7 +100,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Coco%20Priv%C3%A9%2C%20C98J%2BR4G%2C%20Kuda%20Hithi%20Island%2C%20Kuda%20Hithi%2020079%2C%20Maldives&directFlights=false&endDate=2022-11-09&hotels-destination=Coco%20Priv%C3%A9%2C%20Maldives&hotels-destination=COMO%20Parrot%20Cay&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 
 // medium cost hot arid high density(desert)
-//<p>From the stirring beauty of our lush Sonoran Desert to our luxury resorts, chef-driven restaurants and exciting activities and attractions, Scottsdale is bursting at the seams with the makings of a memorable getaway. Being nestled on the southern border of the Tonto National Forest gives Scottsdale access to world class mountain bike and hiking trails. </p>
+//<p>From the stirring beauty of our lush Sonoran Desert to our luxury resorts, chef-driven restaurants and exciting activities and attractions, Scottsdale is bursting at the seams with the makings of a memorable getaway. Being nestled on the southern border of the Tonto National Forest gives Scottsdale access to world class mountain bike and hiking trails. Scottsdale also has some of the nicest golf courses </p>
 // Scottsdale, AZ
 // expedia link (https://www.expedia.com/Scottsdale-Hotels.d9829.Travel-Guide-Hotels)
 // <img id='mediumScott' alt='mediumScott' src='https://images.unsplash.com/photo-1638398415609-14d9b0fee25e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'>
