@@ -148,6 +148,10 @@ ul {
   animation-fill-mode: forwards;
 }
 
+.fade-in img {
+  border-radius: 10px;;
+}
+
 
 .intro {
   margin-left: 4rem;
@@ -158,6 +162,7 @@ ul {
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
+  border-radius: 10px;
   background: rgb(128, 128, 128, .5);
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
@@ -173,7 +178,7 @@ ul {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  
+  border-radius: 10px;
 }
 
 fieldset {
