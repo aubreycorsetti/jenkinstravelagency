@@ -1,11 +1,4 @@
-/* eslint-disable indent */
-/* function Question(text, response1, response2, response3){
-  this.text=text;
-  this.response1=response1;
-  this.response2=response2;
-  this.response3=response3;
-} */
-/* let cost=new Question('How much do you want to spend on your next vacation?', 'High','Medium','Low'); */
+
 
 //constructor function
 function Destination(name, price, climate, density, fileextension='jpg',location = undefined) {
