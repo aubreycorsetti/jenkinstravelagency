@@ -11,7 +11,7 @@ function Destination(name, price, climate, density, fileextension='jpg',location
   this.src=`img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`;//img link */
 }
 //test location array//
-let pyramids = new Destination("pyramids", "highcost", "warm", "highdensity",'jpg' ,"arid",);
+let pyramids = new Destination("pyramids", "highcost", "warm", "highdensity",'jpg' ,"arid");
 let picturedrocksnational = new Destination("picturedrocksnational", "mediumcost", "cold",'jpeg' ,"lowdensity");
 let parrotbay = new Destination("parrotbay", "highcost", "warm", "lowdensity",'jpeg' ,"beach");
 let panamacitybeach = new Destination("panamacitybeach", "lowcost", "warm", "lowdensity",'png', "beach");

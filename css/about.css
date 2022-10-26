@@ -5,6 +5,7 @@
   font-family: 'Bebas Neue', cursive;
   font-family: 'Bungee Hairline', cursive;
   font-family: 'Oswald', sans-serif;
+ 
 }
 
 nav {
@@ -92,6 +93,7 @@ body {
   align-items: center;
   position: relative;
   background-attachment: fixed;
+  display:grid
 
 }
 
@@ -122,6 +124,8 @@ h1 {
   animation-fill-mode: forwards;
 }
 
+
+
 main article section{
   display: inline-block;
   border: 5px solid black;
@@ -130,7 +134,7 @@ main article section{
   margin: 2.35rem;
   overflow: auto;
   height: 350px;
-  width: 500px;
+  max-width: 500px;
   text-align: center;
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
