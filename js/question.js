@@ -8,13 +8,14 @@
 /* let cost=new Question('How much do you want to spend on your next vacation?', 'High','Medium','Low'); */
 
 //constructor function
-function Destination(name, price, climate, density, location = undefined) {
+function Destination(name, price, climate, density, fileextension='jpg',location = undefined) {
   this.name = name;
   this.price = price; //low,medium,high
-  this.climate = climate; //warme,cold
+  this.climate = climate; //warm,cold
   this.density = density; //highdensity, lowdensity
+  this.fileextension = fileextension
   this.location = location; //beach, tropical, arid
-  /* this.img=`img/${urlpath}`;//img link */
+  this.img=`img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`;//img link */
 }
 //test location array//
 let bali = new Destination("Bali", "high", "warm", "low", "beach");
@@ -66,6 +67,7 @@ const option2 = document.getElementById("option2");
 const option3 = document.getElementById("option3");
 const submitBtn = document.getElementById("submit");
 
+
 let current = 0;
 let points = 0;
 
@@ -85,6 +87,7 @@ function loadQuestions() {
     option2.innerText = currentquestionArray.b;
     option3.innerText = currentquestionArray.c;
   }
+
 }
 
 function getSelected() {
