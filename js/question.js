@@ -1,11 +1,4 @@
-/* eslint-disable indent */
-/* function Question(text, response1, response2, response3){
-  this.text=text;
-  this.response1=response1;
-  this.response2=response2;
-  this.response3=response3;
-} */
-/* let cost=new Question('How much do you want to spend on your next vacation?', 'High','Medium','Low'); */
+
 
 //constructor function
 function Destination(name, price, climate, density, fileextension='jpg',location = undefined) {
@@ -15,18 +8,24 @@ function Destination(name, price, climate, density, fileextension='jpg',location
   this.density = density; //highdensity, lowdensity
   this.fileextension = fileextension
   this.location = location; //beach, tropical, arid
-  this.img=`img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`;//img link */
+  this.src=`img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`;//img link */
 }
 //test location array//
-let bali = new Destination("Bali", "high", "warm", "low", "beach");
-let bali1 = new Destination("Bali1", "high", "cold", "high", "beach");
-let bali2 = new Destination("Bali2", "low", "warm", "high", "beach");
-let bali3 = new Destination("Bali3", "high", "cold", "low", "beach");
-let bali4 = new Destination("Bali4", "low", "warm", "high", "beach");
-let bali5 = new Destination("Bali5", "low", "warm", "low", "beach");
-let bali6 = new Destination("Bali6", "high", "cold", "high", "beach");
-let locations = [bali, bali1, bali2, bali3, bali4, bali5, bali6];
+let pyramids = new Destination("pyramids", "highcost", "warm", "highdensity",'jpg' ,"arid",);
+let picturedrocksnational = new Destination("picturedrocksnational", "mediumcost", "cold",'jpeg' ,"lowdensity");
+let parrotbay = new Destination("parrotbay", "highcost", "warm", "lowdensity",'jpeg' ,"beach");
+let panamacitybeach = new Destination("panamacitybeach", "lowcost", "warm", "lowdensity",'png', "beach");
+let niagarafalls = new Destination("niagarafalls", "lowcost", "cold", "lowdensity", 'jpg');
+let myrtlebeach = new Destination("myrtlebeach", "lowcost", "warm", "highdensity","jpeg" ,"beach");
+let montanadeoro = new Destination("montanadeoro", "lowcost", "warm", "lowdensity","jpeg","beach");
+let miami= new Destination('miami','highcost','warm','highdensity','jpeg','beach');
+let marcoisland= new Destination('marcoisland','highcost','warm','highdensity','jpeg','beach');
+let kepuhibeach = new Destination('kepuhibeach','lowcost','warm','lowdensity','jpeg','beach');
+let cocoprive=new Destination('cocoprive','highcost','warm','lowdensity','jpeg','beach');
+let bigsky=new Destination('bigsky','mediumcost','cold','lowdensity','jpeg');
+let asheville=new Destination('asheville','mediumcost','cold','lowdensity','jpeg');
 
+let locations=[pyramids,picturedrocksnational,parrotbay,panamacitybeach,niagarafalls,myrtlebeach,montanadeoro,miami,marcoisland,kepuhibeach,cocoprive,bigsky,asheville];
 //sample questions//
 
 const questionArray = [
