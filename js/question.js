@@ -11,7 +11,7 @@
 function Destination(name, price, climate, density, location = undefined) {
   this.name = name;
   this.price = price; //low,medium,high
-  this.climate = climate; //warme,cold
+  this.climate = climate; //warm,cold
   this.density = density; //highdensity, lowdensity
   this.location = location; //beach, tropical, arid
   /* this.img=`img/${urlpath}`;//img link */
