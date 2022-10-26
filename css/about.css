@@ -122,12 +122,16 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-main article section {
+main article section{
+  display: inline-block;
+  border: 5px solid black;
+  align-items: center;
   padding: 2rem;
-  margin: auto;
+  margin: 2.35rem;
   overflow: auto;
-  height: 500px;
-  width: 450px;
+  height: 350px;
+  width: 500px;
+  text-align: center;
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
   background: rgb(128, 128, 128, .5);
@@ -136,10 +140,14 @@ main article section {
   animation-fill-mode: forwards;
 }
 
+
 img {
   border-radius: 50rem;
-  padding: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   align-items: center;
+  margin: 2rem;
 }
 
 menu.menubar {
@@ -166,9 +174,9 @@ footer p {
 }
 
 h2 {
-  margin: 0;
+  /* margin: 0; */
   text-align: center;
-  padding: 1rem;
+  /* padding-bottom: 1rem; */
   font-size: 30px;
   font-style: italic;
 }
