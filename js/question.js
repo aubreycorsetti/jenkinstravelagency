@@ -5,67 +5,86 @@
   this.response2=response2;
   this.response3=response3;
 } */
-
+/* let cost=new Question('How much do you want to spend on your next vacation?', 'High','Medium','Low'); */
 
 //constructor function
-/* function Destination(name,price, climate, density, location, img){
-  this.name=name;
-  this.price=price;//low,medium,high
-  this.climate=climate;//warmer,colder
-  this.density=density;//rowdy, serenity
-  this.location=location//beach, tropical, desert
-  this.img=img;//img link
-} */
+function Destination(name, price, climate, density, location = undefined) {
+  this.name = name;
+  this.price = price; //low,medium,high
+  this.climate = climate; //warme,cold
+  this.density = density; //highdensity, lowdensity
+  this.location = location; //beach, tropical, arid
+  /* this.img=`img/${urlpath}`;//img link */
+}
+//test location array//
+let bali = new Destination("Bali", "high", "warm", "low", "beach");
+let bali1 = new Destination("Bali1", "high", "cold", "high", "beach");
+let bali2 = new Destination("Bali2", "low", "warm", "high", "beach");
+let bali3 = new Destination("Bali3", "high", "cold", "low", "beach");
+let bali4 = new Destination("Bali4", "low", "warm", "high", "beach");
+let bali5 = new Destination("Bali5", "low", "warm", "low", "beach");
+let bali6 = new Destination("Bali6", "high", "cold", "high", "beach");
+let locations = [bali, bali1, bali2, bali3, bali4, bali5, bali6];
+
 //sample questions//
+
 const questionArray = [
   {
-    question: 'How much do you want to spend for your next vacation?',
-    a: '$3000+',
-    b: '$1000-$3000',
-    c: '<$1000',
+    question: "How much do you want to spend on your next vacation?",
+    a: "<$150",
+    b: "Between $150 and $300",
+    c: "More than $300",
+    options: ["a", "b", "c"],
   },
   {
-    question: 'I like to talk to a lot of different people if I go to a party.',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree;',
-    points: [1, 2, 3],
+    question: "Warmer vs Cooler/Colder",
+    a: "Warmer",
+    b: "Colder",
+    options: ["a", "b"],
   },
   {
-    question: 'I love to be active on vacation',
-    a: 'Agree',
-    b: 'Neutral',
-    c: 'Disagree',
-    points: [1, 2, 3],
+    question: "Beach Vs. Arid vs. Tropical",
+    a: "Beach",
+    b: "Arid",
+    c: "Tropical",
+    options: ["a", "b", "c"],
+  },
+  {
+    question: "Large crowd vs. Serene Vacation",
+    a: "Large Crowded spot",
+    b: "Serene Vacation",
+    options: ["a", "b"],
   },
 ];
 
-const questionElem = document.getElementById('question');
-const answersElem = document.querySelectorAll('.answer');
-const quiz = document.getElementById('quiz');
+const questionBox = document.getElementById("question");
+const answersElem = document.querySelectorAll(".question");
+/* const questions = document.getElementById('questions');
+ */
+const option1 = document.getElementById("option1");
+const option2 = document.getElementById("option2");
+const option3 = document.getElementById("option3");
+const submitBtn = document.getElementById("submit");
 
-const option_one = document.getElementsByClassName('option1');
-const option_two = document.getElementsByClassName('option2');
-const option_three = document.getElementsByClassName('option3');
-const submitBtn = document.getElementById('submit');
-
-
-
-
-let currentQuestion = 0;
-let points=0;
+let current = 0;
+let points = 0;
 
 loadQuestions();
 
-
 function loadQuestions() {
   deselectAnswers();
-  const currentquestionArray=questionArray[currentQuestion];
-  questionElem.innerText = currentquestionArray.question;
+  const currentquestionArray = questionArray[current];
+  questionBox.innerText = currentquestionArray.question;
   //answer options will be part of label.option element
-  option_one.innerHTML = currentquestionArray.a;
-  option_two.innerHTML = currentquestionArray.b;
-  option_three.innerHTML = currentquestionArray.c;
+  if (currentquestionArray.options.length === 2) {
+    option1.innerText = currentquestionArray.a;
+    option2.innerText = null;
+    option3.innerText = currentquestionArray.b;
+  } else{
+    option1.innerText = currentquestionArray.a;
+    option2.innerText = currentquestionArray.b;
+    option3.innerText = currentquestionArray.c;
+  }
 }
 
 function getSelected() {
@@ -88,22 +107,26 @@ function deselectAnswers() {
   });
 }
 
-submitBtn.addEventListener('click', () => {
+submitBtn.addEventListener("click", () => {
   const answer = getSelected();
-if(answer){
-    if (answer==='a') {
+  if (answer) {
+    if (answer === "a") {
       points++;
-    }else if(answer==='b') {
+    } else if (answer === "b") {
       points++;
-    }else if(answer==='c') {
+    } else if (answer === "c") {
       points++;
     }
-  }});
-  currentQuestion++;
-if(currentQuestion<questionArray.length){
-  loadQuestions();
-  //these are sample results
-} /* else if(currentQuestion===questionArray.length) {
+
+    current++;
+    if (current < questionArray.length) {
+      loadQuestions();
+    } else if (current === questionArray.length) {
+      alert("The end");
+    }
+  }
+});
+/* else if(currentQuestion===questionArray.length) {
   if(points >20 && points<=30){
     quiz.innerHTML = `<h2>You got ${points} points. You like adventure.</h2> <button onclick="location.reload()">Reload</button>`;
   }else if(points>10 && points<=20) {
