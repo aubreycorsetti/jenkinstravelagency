@@ -119,14 +119,14 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 // <h2>Mojave Desert, California</h2>
 //<p>The Mojave Desert, together with the Sonoran, Chihuahuan, and Great Basin deserts, forms a larger North American Desert. Of these, the Mojave is the smallest and driest. The Mojave Desert is bordered by the San Andreas fault to the Southwest. The Mojave Desert has several ghost towns. The most significant are the silver and copper-mining town of Calico, California, and the old railroad depot of Kelso, California. This general region does include the greater Las Vegas area.</p>
 // expedia link(https://www.expedia.com/Hotel-Search?GOTO=HOTSEARCH&SearchArea=City&SearchType=Place&adults=2&destination=Mojave%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-10-28&guestRating=40&hotelName=&hotels-destination=Mojave%2CAnna%20Maria%20Island&l10n=%5Bobject%20Object%5D&latLong=35.052406%2C-118.166986&localDateFormat=M%2Fd%2Fyyyy&needUTF8Decode=true&neighborhood=6094973&partialStay=false&price=0&price=300&regionId=6094973&rfrr=hotel.search&semdtl=&sort=RECOMMENDED&startDate=2022-10-27&theme=&ttla=PHX&useRewards=false&userIntent=)
-//<img id='mediumMojave' alt='mediumMojave' src='https://images.unsplash.com/photo-1516417156595-3ca5df62a3a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80'>
+//<img id='mediumMojave' alt='mediumMojave' src='img/mojavedesert-mediumprice-warm-lowdensity-arid.jpg'>
 
 // 2 high cost hot arid low density
 
 // The Hoggar Mountains, Algeria
 //<p>The Hoggar Mountains are a highland region that features very unique mountain peaks, and it is located in the southern part of Algeria. This area is rich in historic ruins and even has cave paintings that date back to 6,000 BC and they depict a nature and wildlife which is nowadays mostly found in the southern, more fertile parts of Africa.</p>
 // expedia link(https://www.expedia.com/Tamanrasset.d3485.Destination-Travel-Guides)
-// <img id='highAlgeria' alt='highAlgeria' src='https://upload.wikimedia.org/wikipedia/commons/2/2a/%D8%A7%D8%B3%D9%83%D8%B1%D8%A7%D9%85_2_-_%D8%AA%D9%85%D9%86%D8%B1%D8%A7%D8%B3%D8%AA.jpg'>
+// <img id='highAlgeria' alt='highAlgeria' src='img/hoggarmountains-highprice-warm-lowdensity-arid.jpg'>
 // The Pryamids, Egypt
 //<p>The Sahara Desert is the largest hot desert in the world. It also happens to be one of the least populated geographical regions in the world with less than per person per square mile and home to the Egyptian Pryamids. The most famous pyramids are those in Giza, near Cairo. The Great Pyramid at Giza was built about 4,500 years ago. It was one of the Seven Wonders of the ancient world.</p>
 //expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Giza%20Pyramid%20Complex%2C%20Giza%2C%20Giza%20Governorate%2C%20Egypt&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&l10n=%5Bobject%20Object%5D&latLong=29.97738181394544%2C31.131875387721845&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=150&price=300&regionId=6073067&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
@@ -137,7 +137,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 // <h2>Dubai, UAE</h2>
 //<p>Dubai straddles a natural inlet called Dubai Creek on the southern shores of the Persian Gulf. Dubai is known as a city of skyscrapers, ports, and beaches, where big business takes place alongside sun-seeking tourism. Dubai’s rulers have sought to increase the city’s limited seafronts, and, in the absence of natural offshore islands, developers are encouraged to construct giant man-made islands off the coast of the city. The most famous of these islands is Palm Jumeirah, which has the shape of a palm tree.</p>
 //expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Dubai%2C%20United%20Arab%20Emirates&directFlights=false&endDate=2022-11-09&hotels-destination=Dubai&l10n=%5Bobject%20Object%5D&latLong=25.110714%2C55.394882&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=1079&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
-//<img id='highDubai' alt='highDubai' src='https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'>
+//<img id='highDubai' alt='highDubai' src='img/dubai-highprice-warm-highdensity-arid.jpg'>
 //<h2>Las Vegas, Nevada</h2>
 // <p>Known officially as Las Vegas Boulevard, the Las Vegas Strip is one of the most recognizable streets in the world. Las Vegas offers some of the most luxurious hotels in the world and no limit tables at the casinos for the most serious high limit gamblers. The night life is legendary and filled with celebrities from around the world. The NFL's Las Vegas Raiders are based at the state of the art 1.9 billion dollar Allegiant Stadium. </p>
 //expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Las%20Vegas%20Strip%2C%20Paradise%2C%20Nevada%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Las%20Vegas%20Strip&l10n=%5Bobject%20Object%5D&latLong=36.114708%2C-115.172852&localDateFormat=M%2Fd%2Fyyyy&neighborhood=800045&partialStay=false&price=300&price=300&regionId=800045&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
@@ -152,18 +152,18 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 // Hilton Head Island, South Carolina
 //<p>From beautiful beaches and world-class golf courses to exceptional restaurants and high-energy water sports, Hilton Head Island has everything a traveler could want. You can fish, cruise, paddleboard, kayak, snorkel, or jet ski out on the water. Between May and October sea turtles visit and make their nests. When the eggs hatch voulunteers are recruited to help the little turtles make it safely into the sea.</p>
 // expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Hilton%20Head%20Island%2C%20South%20Carolina%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Hilton%20Head%20Island&l10n=%5Bobject%20Object%5D&latLong=32.15592%2C-80.76201&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=601684&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
-// <img id='mediumHiltion' alt='mediumHiltion' src='https://ygt-res.cloudinary.com/image/upload/c_fit,h_1280,q_80,w_1920/v1614085108/Venues/Omni%20Hilton%20Head%20Oceanfront%20Resort/omni-hilton-head-oceanfront-resort-1.jpg'
+// <img id='mediumHiltion' alt='mediumHiltion' src='img/hiltonhead-mediumprice-warm-lowdensity-tropical.jpg'
 
 // 2 hot tropical medium cost high density
 
 // Orlando, FL
 //<p>Orlando is home to more than a dozen theme parks with the most famous of those being Walt Disney World and Universal Orlando. Each of these parks has their own unique ecosystems which include waterparks. Orlando is home to the Nba's Orlando Magic and also had the odd distinction of hosting the Nba "bubble" during the Covid-19 shortened season of 2020. With the exception of the theme parks, most major cultural sites like the Orlando Museum of Art, Dr. Phillips Center for the Performing Arts, world-renowned nightlife, bars and clubs are located in Downtown Orlando. Orlando is one of the largest convention destinations and also hosts the University of Central Florida with its over 70,000 students.</p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Orlando%20%28and%20vicinity%29%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Orlando&l10n=%5Bobject%20Object%5D&latLong=28.54129%2C-81.37904&localDateFormat=M%2Fd%2Fyyyy&neighborhood=178294&partialStay=false&price=0&price=300&regionId=178294&semdtl=&sort=RECOMMENDED&star=30&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
-// <img id='mediumOrlando' alt='mediumOrlando' src='https://images.unsplash.com/photo-1617409123168-8fb039dd3b39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b3JsYW5kbyUyMGZsb3JpZGF8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60'>
+// <img id='mediumOrlando' alt='mediumOrlando' src='img/orlando-mediumprice-warm-highdensity-tropical.jpg'>
 //Santa Cruz, CA
 //<p>Santa Cruz is a city nestled into the central part of California’s coast. Its long wharf, with eateries and shops, stretches out into Monterey Bay. Offering the best of the Golden State, Santa Cruz is the quintessential California beach town. After all, it's where three vacationing Hawaiian princes first surfed the USA in 1885 and the place Jack O’Neill invented the wetsuit in the 1950s. Santa Cruz’s history is cemented in this iconic California sport. Surfers tote their boards to the beach, where families relax on the sand as children splash and play in the water.</p>
 //expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Santa%20Cruz%2C%20California%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Santa%20Cruz&l10n=%5Bobject%20Object%5D&latLong=36.978189%2C-122.024464&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=6666&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
-//<img id='mediumSanta' alt='mediumSanta' src='https://images.unsplash.com/photo-1564431562676-5aac4688f96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1438&q=80'>
+//<img id='mediumSanta' alt='mediumSanta' src='img/santacruz-mediumprice-warm-highdensity-tropical.jpg'>
 
 // 2 cold not busy high cost:
 
@@ -198,7 +198,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 /* <img id='myrtleBeach' alt='myrtleBeach' src='img/myrtlebeach-lowprice-warm-highdensity-tropical.jpg'>
   <h2>Myrtle Beach, South Carolina</h2>
-  //<p>   </p>
+  //<p>Myrtle Beach has an abundance of outdoor activities available for tourists to enjoy during their visit. There are over   </p>
   expedia link (https://www.expedia.com/Hotel-Search?adults=2&children=&destination=Myrtle%20Beach%2C%20South%20Carolina%2C%20United%20States%20of%20America&endDate=2022-11-09&price=0&price=150&regionId=601685&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 <img id='southPadreIsland' alt='southPadreIsland' src='img/southpadre-lowprice-warm-highdensity-tropical.jpg'>
   <h2>South Padre Island, Texas</h2>
@@ -248,6 +248,5 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 // <p></p>
 // <img id='tybeeBeach' alt='tybeeBeach' src='img/tybeebeach-mediumprice-warm-lowdensity-beach.jpg'>
 //   <h2>Tybee Island, Georgia</h2>
-/* <p></p> */
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Tybee%20Island%2C%20Georgia%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Tybee%20Island%2CAspen&l10n=%5Bobject%20Object%5D&latLong=32.000215%2C-80.845666&localDateFormat=M%2Fd%2Fyyyy&neighborhood=10128&partialStay=false&price=120&price=300&regionId=10128&semdtl=&sort=RECOMMENDED&star=&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
-//<p>Tybee Island is a barrier Island in Savannah Georgia, facing due east. It is home to clean beaches, and miles of beautiful sand barriers. It is the perfect summertime destination for those seeking fun on the beach! Towards the southern tip of the island is the bustling and iconic Tybrisa steet! This vibrant street is a place where tourist and locals alike, come to dine, shop and stay. You'll have no trouble fining rooms for $120 a night or less, ensuring an adventure of fun for the entire family.</p>
+//<p>Tybee Island is a barrier Island in Georgia, facing due east. It is home to clean beaches, and miles of beautiful sand barriers. It is the perfect summertime destination for those seeking fun on the beach! Towards the southern tip of the island is the bustling and iconic Tybrisa steet! This vibrant street is a place where tourist and locals alike, come to dine, shop and stay. You'll have no trouble fining rooms for $120 a night or less, ensuring an adventure of fun for the entire family.</p>
