@@ -7,6 +7,80 @@
   font-family: 'Oswald', sans-serif;
 }
 
+nav {
+  height: 115px;
+  background-color: rgba(207, 180, 146, 0.364);
+  color: whitesmoke;
+}
+
+nav li {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  text-size-adjust: 25px;
+  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent tan;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 1.5rem;
+
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background: rgb(122, 115, 110);
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li ul {
+  text-decoration: none;
+  position: absolute;
+  width: 50px;
+  display: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color:rgb(0, 0, 0);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 body {
   background-image: url('../img/welcome2.jpeg');
   background-repeat: no-repeat;
@@ -55,7 +129,7 @@ main article section {
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
   background: rgb(128, 128, 128, .5);
-  animation: fadeInAnimation ease 4s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -78,6 +152,16 @@ menu.menubar {
   width: 100%;
 }
 
+footer {
+  padding-top: 1rem;
+  text-align: center;
+  background-color: transparent tan;
+}
+
+footer p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 h2 {
   margin: 0;
