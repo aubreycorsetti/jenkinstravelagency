@@ -122,11 +122,11 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 // high cost hot arid low density(x2)
 // The Hoggar Mountains, Algeria
-//<p></p>
+//<p>The Hoggar Mountains are a highland region that features very unique mountain peaks, and it is located in the southern part of Algeria. This area is rich in historic ruins and even has cave paintings that date back to 6,000 BC and they depict a nature and wildlife which is nowadays mostly found in the southern, more fertile parts of Africa.</p>
 // expedia link(https://www.expedia.com/Tamanrasset.d3485.Destination-Travel-Guides)
 // <img id='highAlgeria' alt='highAlgeria' src='https://upload.wikimedia.org/wikipedia/commons/2/2a/%D8%A7%D8%B3%D9%83%D8%B1%D8%A7%D9%85_2_-_%D8%AA%D9%85%D9%86%D8%B1%D8%A7%D8%B3%D8%AA.jpg'>
 // Sahara Desert, Egypt
-//<p></p>
+//<p>The Sahara Desert is the largest hot desert in the world. It also happens to be one of the least populated geographical regions in the world with less than per person per square mile</p>
 //expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Sahara%20Desert&directFlights=false&endDate=2022-11-09&guestRating=45&hotelName=&l10n=%5Bobject%20Object%5D&latLong=23.416203%2C25.66283&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=0&price=300&regionId=553248635976197901&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 //<img id='highEgypt' alt='highEgypt' src='https://images.unsplash.com/photo-1486314030120-d5ab85fe58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80'>
 
@@ -135,10 +135,10 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //<p></p>
 //expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Dubai%2C%20United%20Arab%20Emirates&directFlights=false&endDate=2022-11-09&hotels-destination=Dubai&l10n=%5Bobject%20Object%5D&latLong=25.110714%2C55.394882&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=1079&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 //<img id='highDubai' alt='highDubai' src='https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'>
-// Cairo, Egypt
-//<p></p>
-//expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Cairo%20%28and%20vicinity%29%2C%20Egypt&directFlights=false&endDate=2022-11-09&guestRating=45&hotelName=&hotels-destination=Cairo&l10n=%5Bobject%20Object%5D&latLong=30.044437%2C31.235711&localDateFormat=M%2Fd%2Fyyyy&neighborhood=178243&partialStay=false&price=0&price=300&regionId=178243&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
-//<img id='highCiaro' alt='highCiaro' src='https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'>
+// 
+//<p>Las Vegas, Nevada</p>
+//expedia link ()
+//<img id='' alt='' src=''>
 
 //hot tropical medium cost low density
 // South Padre Island, TX
