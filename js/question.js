@@ -14,7 +14,7 @@ function Destination(name, price, climate, density, location = undefined) {
   this.climate = climate; //warm,cold
   this.density = density; //highdensity, lowdensity
   this.location = location; //beach, tropical, arid
-  /* this.img=`img/${urlpath}`;//img link */
+  this.img=`img/${urlpath}`;//img link */
 }
 //test location array//
 let bali = new Destination("Bali", "high", "warm", "low", "beach");
