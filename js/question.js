@@ -15,7 +15,7 @@ function Destination(name, price, climate, density, fileextension='jpg',location
   this.density = density; //highdensity, lowdensity
   this.fileextension = fileextension
   this.location = location; //beach, tropical, arid
-  this.img=`img/${name}-${price}-${climate}-${density}-${location}`;//img link */
+  this.img=`img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`;//img link */
 }
 //test location array//
 let bali = new Destination("Bali", "high", "warm", "low", "beach");
