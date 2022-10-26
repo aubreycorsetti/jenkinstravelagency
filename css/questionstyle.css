@@ -11,11 +11,12 @@ nav {
   height: 115px;
   background-color: rgba(207, 180, 146, 0.364);
   color: whitesmoke;
+  display: flex;
 }
 
 nav li {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 18px;
   align-items: center;
   text-align: center;
@@ -63,6 +64,7 @@ ul li ul {
 a {
   color:rgb(0, 0, 0);
   padding: 1rem;
+  cursor: pointer;
 }
 
 a:link {
@@ -104,32 +106,6 @@ main {
 
 }
 
-menu.menubar {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  box-sizing: border-box;
-  font-family: 'allerta', sans-serif;
-  min-height: 3rem;
-  padding: 1rem;
-  font-size: 1rem;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-}
-
-button {
-  background-color: peru;
-  display: block;
-  width: 100%;
-  font-family: 'Bungee Hairline';
-  border: none;
-  font-size: 1.3rem;
-  padding: 1rem;
-  color: #fff;
-  cursor: pointer;
-  margin-top: 4rem;
-}
-
 div.answer-container {
   min-width: 60%;
   max-width: 80%;
@@ -147,6 +123,11 @@ div.answer-container {
 
 }
 
+#responseContainer {
+  display: flex;
+  padding-left: 7rem;
+}
+
 div#response {
   max-width: 220px;
   max-height: 220px;
@@ -156,6 +137,11 @@ div#response {
   grid-row: 3;
   border-radius: 3px;
   border-radius: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+ 
 }
 
 div#question {
@@ -180,19 +166,24 @@ img.responsive {
   max-width: 100%;
   height: auto;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 button#submit {
-  grid-row-end: 5;
+  grid-row-end: 6;
   grid-column-end: 3;
   border-radius: 1rem;
-  background: rgb(247, 182, 107);
+  padding: 1rem;
+  font-size: 1.3rem;
+  background: rgba(84, 152, 82, 0.716);
   border: 3px solid rgba(42, 11, 11, 0.04);
   color: black;
   font-weight: bold;
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 1px 1px 4px #fff, 1px 1px 4px #ccc;
+  cursor: pointer;
 }
+
 
 button#submit:hover {
   background: rgb(255, 151, 32);

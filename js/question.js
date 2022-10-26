@@ -16,7 +16,7 @@ let picturedrocksnational = new Destination('picturedrocksnational', 'mediumcost
 let parrotbay = new Destination('parrotbay', 'highcost', 'warm', 'lowdensity', 'jpeg', 'beach');
 let panamacitybeach = new Destination('panamacitybeach', 'lowcost', 'warm', 'lowdensity', 'png', 'beach');
 let niagarafalls = new Destination('niagarafalls', 'lowcost', 'cold', 'lowdensity', 'jpg');
-let myrtlebeach = new Destination('myrtlebeach', 'lowcost', 'warm', 'highdensity','jpeg', 'beach');
+let myrtlebeach = new Destination('myrtlebeach', 'lowcost', 'warm', 'highdensity', 'jpeg', 'beach');
 let montanadeoro = new Destination('montanadeoro', 'lowcost', 'warm', 'lowdensity', 'jpeg', 'beach');
 let miami = new Destination('miami', 'highcost', 'warm', 'highdensity', 'jpeg', 'beach');
 let marcoisland = new Destination('marcoisland', 'highcost', 'warm', 'highdensity', 'jpeg', 'beach');
@@ -65,6 +65,7 @@ const option1 = document.getElementById('option1');
 const option2 = document.getElementById('option2');
 const option3 = document.getElementById('option3');
 const submitBtn = document.getElementById('submit');
+const responseContainer = document.getElementById('responseContainer');
 
 
 let current = 0;
@@ -109,6 +110,27 @@ function deselectAnswers() {
   });
 }
 
+function handleClick(event) {
+  console.log(event);
+  if (event.target === responseContainer) {
+    alert('Please click on an image');
+  }
+
+  let clickedResponse = event.target.alt;
+  console.log(event.target.alt);
+  //console.log(questionArray[0].a);
+  for (let i = 0; i < questionArray.length; i++) {
+    if (event.target.alt === 'a') {
+      console.log(questionArray[0].a);
+    } else if (event.target.alt === 'b') {
+      console.log(questionArray[0].b);
+    } else if (event.target.alt === 'c') {
+      console.log(questionArray[0].c);
+    }
+  }
+
+}
+
 submitBtn.addEventListener('click', () => {
   const answer = getSelected();
   if (answer) {
@@ -137,3 +159,5 @@ submitBtn.addEventListener('click', () => {
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
   }
   } */
+
+responseContainer.addEventListener('click', handleClick);
