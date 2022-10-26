@@ -11,6 +11,23 @@ function Destination(name, price, climate, density, fileextension = 'jpg', locat
   this.src = `img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`;//img link */
 }
 //test location array//
+
+let pyramids = new Destination('pyramids', 'highcost', 'warm', 'highdensity', 'jpg', 'arid');
+let picturedrocksnational = new Destination('picturedrocksnational', 'mediumcost', 'cold', 'jpeg', 'lowdensity');
+let parrotbay = new Destination('parrotbay', 'highcost', 'warm', 'lowdensity', 'jpeg', 'beach');
+let panamacitybeach = new Destination('panamacitybeach', 'lowcost', 'warm', 'lowdensity', 'png', 'beach');
+let niagarafalls = new Destination('niagarafalls', 'lowcost', 'cold', 'lowdensity', 'jpg');
+let myrtlebeach = new Destination('myrtlebeach', 'lowcost', 'warm', 'highdensity', 'jpeg', 'beach');
+let montanadeoro = new Destination('montanadeoro', 'lowcost', 'warm', 'lowdensity', 'jpeg', 'beach');
+let miami = new Destination('miami', 'highcost', 'warm', 'highdensity', 'jpeg', 'beach');
+let marcoisland = new Destination('marcoisland', 'highcost', 'warm', 'highdensity', 'jpeg', 'beach');
+let kepuhibeach = new Destination('kepuhibeach', 'lowcost', 'warm', 'lowdensity', 'jpeg', 'beach');
+let cocoprive = new Destination('cocoprive', 'highcost', 'warm', 'lowdensity', 'jpeg', 'beach');
+let bigsky = new Destination('bigsky', 'mediumcost', 'cold', 'lowdensity', 'jpeg');
+let asheville = new Destination('asheville', 'mediumcost', 'cold', 'lowdensity', 'jpeg');
+
+let locations = [pyramids, picturedrocksnational, parrotbay, panamacitybeach, niagarafalls, myrtlebeach, montanadeoro, miami, marcoisland, kepuhibeach, cocoprive, bigsky, asheville];
+
 let niagarafalls = new Destination('niagarafalls', 'lowprice', 'cold', 'lowdensity', 'jpg');
 let yellowstone = new Destination('yellowstone', 'lowprice', 'cold', 'lowdensity', 'jpg');
 let niagara = new Destination('niagara', 'lowprice', 'cold', 'highdensity', 'jpg');
@@ -61,7 +78,12 @@ let panamacitybeach = new Destination('panamacitybeach', 'lowprice', 'warm', 'lo
 let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensity','jpeg', 'beach');
 
 
+
+let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio,picturedrocksnational, leavenworth, asheville,     ];
+
+
 let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio,picturedrocksnational, leavenworth, asheville, bigsky, miami, galapagos, parrotbay, cocoprive, scottsdale, palmsprings, sedona, mojavedesert, hoggarmountains, pyramids, dubai, expensivevegas, grandcayman, hiltonhead, orlando, santacruz, kirkenes, solitudemountain, pensacola, hohrainforest, myrtletropical, southpadretropical, lizardisland, laucalaisland, kauaihawaii, cookislands, negriljamaica, rivieramaya, keywest, tybeebeach, kepuhibeach, montanadeoro, panamacitybeach, myrtlebeach];
+
 //sample questions//
 
 const questionArray = [
@@ -101,6 +123,7 @@ const option1 = document.getElementById('option1');
 const option2 = document.getElementById('option2');
 const option3 = document.getElementById('option3');
 const submitBtn = document.getElementById('submit');
+const responseContainer = document.getElementById('responseContainer');
 
 
 let current = 0;
@@ -145,6 +168,27 @@ function deselectAnswers() {
   });
 }
 
+function handleClick(event) {
+  console.log(event);
+  if (event.target === responseContainer) {
+    alert('Please click on an image');
+  }
+
+  let clickedResponse = event.target.alt;
+  console.log(event.target.alt);
+  //console.log(questionArray[0].a);
+  for (let i = 0; i < questionArray.length; i++) {
+    if (event.target.alt === 'a') {
+      console.log(questionArray[0].a);
+    } else if (event.target.alt === 'b') {
+      console.log(questionArray[0].b);
+    } else if (event.target.alt === 'c') {
+      console.log(questionArray[0].c);
+    }
+  }
+
+}
+
 submitBtn.addEventListener('click', () => {
   const answer = getSelected();
   if (answer) {
@@ -173,3 +217,5 @@ submitBtn.addEventListener('click', () => {
     quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
   }
   } */
+
+responseContainer.addEventListener('click', handleClick);
