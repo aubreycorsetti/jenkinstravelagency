@@ -31,7 +31,7 @@ let locations = [pyramids, picturedrocksnational, parrotbay, panamacitybeach, ni
 const questionArray = [
   {
     question: 'How much would you like to spend on your vacation?',
-    a: '<$150',
+    a: 'Less than $150',
     b: 'Between $150 and $300',
     c: 'More than $300',
     options: ['a', 'b', 'c'],
