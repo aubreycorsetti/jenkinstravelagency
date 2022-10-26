@@ -33,7 +33,7 @@ h1 {
   /* position: relative; */
   padding: 3rem;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Crimson Text', serif;
   border: 5px solid black;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -52,8 +52,8 @@ main article section {
   overflow: auto;
   height: 500px;
   width: 450px;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
   background: rgb(128, 128, 128, .5);
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
@@ -84,6 +84,7 @@ h2 {
   text-align: center;
   padding: 1rem;
   font-size: 30px;
+  font-style: italic;
 }
 
 @keyframes fadeInAnimation {
