@@ -25,7 +25,7 @@ let cocoprive=new Destination('cocoprive','highcost','warm','lowdensity','jpeg',
 let bigsky=new Destination('bigsky','mediumcost','cold','lowdensity','jpeg');
 let asheville=new Destination('asheville','mediumcost','cold','lowdensity','jpeg');
 
-
+let locations=[pyramids,picturedrocksnational,parrotbay,panamacitybeach,niagarafalls,myrtlebeach,montanadeoro,miami,marcoisland,kepuhibeach,cocoprive,bigsky,asheville];
 //sample questions//
 
 const questionArray = [
