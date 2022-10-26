@@ -80,7 +80,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 // <h2>Miami Beach, Florida</h2>
 //<p>Miami Beach encompasses the man-made barrier islands between the Atlantic Ocean and Biscayne Bay. It is probably most famous for being the city that South Beach is locasted in. The night life is vibrant, exclusive, and celebrity filled. One unique aesthetic attribute of South Beach is the presence of several colorful and unique stands used by Miami Beach's lifeguards. The "foodie" scene is a growing part of the night life and includes several Michelin starred restaurants.</p>
-// img alt='miamiBeach' id='miamiBeach' src='img/miamibeach-highcost-warm-highdensity-beach.jpeg'
+// img alt='miamiBeach' id='miamiBeach' src='img/miami-highprice-warm-highdensity-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Miami%20Beach%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Miami%20Beach&l10n=%5Bobject%20Object%5D&latLong=25.790653%2C-80.130043&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8833&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 // <h2>Galapagos Islands, Ecuador</h2>
 //<p>The Galapagos Islands are truly a delightful destination for nature lovers and this mesmerizing wonderland is home to countless birds, iguanas, huge turtles, and penguins. Its impeccable beauty lures travelers from across the world. Whether you are interested in adventurous excursions on your luxurious trip or want to explore the natural features like sky-high rock formations, volcanoes, and gorgeous beaches there is something for everyone on this island.</p>
@@ -198,7 +198,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 /* <img id='myrtleBeach' alt='myrtleBeach' src='img/myrtlebeach-lowprice-warm-highdensity-tropical.jpg'>
   <h2>Myrtle Beach, South Carolina</h2>
-  //<p>Myrtle Beach has an abundance of outdoor activities available for tourists to enjoy during their visit. There are over   </p>
+  //<p>Myrtle Beach has an abundance of outdoor activities available for tourists to enjoy during their visit. There are over 80 golf courses to choose from in the local area. Water sport options are endless with access to the fresh water intracoastal waterway and the ocean.  </p>
   expedia link (https://www.expedia.com/Hotel-Search?adults=2&children=&destination=Myrtle%20Beach%2C%20South%20Carolina%2C%20United%20States%20of%20America&endDate=2022-11-09&price=0&price=150&regionId=601685&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 <img id='southPadreIsland' alt='southPadreIsland' src='img/southpadre-lowprice-warm-highdensity-tropical.jpg'>
   <h2>South Padre Island, Texas</h2>
