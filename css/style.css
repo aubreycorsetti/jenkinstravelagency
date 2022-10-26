@@ -146,6 +146,11 @@ ul {
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+
+}
+
+.fade-in img {
+  border-radius: 1rem;
 }
 
 
@@ -155,6 +160,7 @@ ul {
   font-size: 25px;
   font-weight: lighter;
   border: 5px solid black;
+  border-radius: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
