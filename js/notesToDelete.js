@@ -34,7 +34,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 // 2 images for warm low cost low desity arid(desert)
 
-// <img alt='grandCanyon' id='grandCanyon' src='img/warm-lowCost-lowDensity-arid.jpg'>
+// <img alt='grandCanyon' id='grandCanyon' src='img/grandcanyon-lowprice-warm-lowdensity-arid.jpg'>
 // <h2>Grand Canyon</h2>
 // expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Grand%20Canyon%2C%20Arizona%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Grand%20Canyon&l10n=%5Bobject%20Object%5D&latLong=36.046996%2C-112.115054&localDateFormat=M%2Fd%2Fyyyy&neighborhood=6140738&partialStay=false&price=0&price=120&regionId=6140738&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 // <p> The Grand Canyon touches four states: Arizona, Nevada, Utah, and Colorado. The most accessible and popular state to see the Grand Canyon is Arizona (South Rim) and Nevada (West Rim).
@@ -51,7 +51,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 // <h2>Las Vegas on a Budget</h2>
 // expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Las%20Vegas%20%28and%20vicinity%29%2C%20Nevada%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=las%20vegas%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=178276&partialStay=false&price=0&price=120&regionId=178276&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 // <p>Las Vegas can be done on a budget and you can still have a great time. Sure, you might not have a swanky suite at the Bellagio, but if you stay at reasonably priced hotels off the strip rooms are often under $100.00 per night. There also frequent discounts available for on the strip hotels that can price them well under $100.00 as well(deals vary by season). There is an endless amount of adventures to occupy your time in Vegas, whether it is catching a show, just crusing the strip and casinos, or going out late night clubbing there is something for everyone.</p>
-// <img id='sanAntonio' alt='sanAntonio' src='img/warm-lowCost-highDensity-arid.jpg'>
+// <img id='sanAntonio' alt='sanAntonio' src='img/sanantonio-lowprice-warm-highdensity-arid.jpg'>
 // <h2>San Antonio, Texas</h2>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=San%20Antonio%20%28and%20vicinity%29%2C%20Texas%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&l10n=%5Bobject%20Object%5D&latLong=29.42362%2C-98.4873&localDateFormat=M%2Fd%2Fyyyy&neighborhood=178303&partialStay=false&price=0&price=90&regionId=178303&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
 // <p>San Antonio is the city of authenticity. Where Real Fun and True Adventure are just outside your door. Whether you visit the Alamo or take a walk down the river shopping district there a ton of lower cost options for entertainment including a Six Flags Fiesta Texas and the San Antonio Zoo. San Antonio is a city rich with both history and diversity.</p>
@@ -185,55 +185,55 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 // // 2 hot tropical low cost low density
 
-// <img id='pensacolaFlorida' src='img/warm-tropical-lowCost-lowDensity.jpg' alt='pensacolaFlorida'>
+// <img id='pensacolaFlorida' src='img/pensacola-lowprice-warm-lowdensity-tropical.jpg' alt='pensacolaFlorida'>
 //   <h2>Pensacola, Florida</h2>
 //<p>Often referred to as “The City of Five Flags”, Pensacola is known for having changed ownership several times. The Spanish, French, British, Confederate, and American flags have all flown over this beautiful city. Anchored at the western tip of Florida, stretching miles along the Gulf of Mexico, this barrier island offers you a range of experiences. From lively crowds at its lifeguarded main beaches, to the quiet, secluded beaches of Gulf Islands National Seashore and the corridors of historic Fort Pickens, you're sure to find your perfect spot in the sand.</p>
 // expedia link (https://www.expedia.com/Hotel-Search?adults=2&children=&destination=Pensacola%2C%20Florida%2C%20United%20States%20of%20America&endDate=2022-11-09&price=0&price=120&regionId=6023331&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
-// <img id='hohRainForest' alt='hohRainForest' src='img/hot-tropical-lowCost-lowDensity.jpg'>
+// <img id='hohRainForest' alt='hohRainForest' src='img/hohrainforest-lowprice-warm-lowdensity-tropical.jpg'>
 //   <h2>Hoh Rain Forest</h2>
 //<p>The Hoh Rain Forest is located in the stretch of the Pacific Northwest rainforest which once spanned the Pacific coast from southeastern Alaska to the central coast of California. The Hoh is one of the finest remaining examples of temperate rainforest in the United States and is one of Olympic National Park's most popular destinations. The Hoh Rain Forest has a campground that is open year round, with 72 sites located in the old growth forest along the river otherwise Forks, Washington, is the next closest accomidations.</p>
 //   expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Hoh%20Rain%20Forest%20Visitor%20Center%2C%20Forks%2C%20Washington%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Hoh%20Rain%20Forest%20Visitor%20Center%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=0&price=150&regionId=6301982&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 
 // 2 low cost tropical high-density
 
-/* <img id='myrtleBeach' alt='myrtleBeach' src='img/hot-tropical-lowcost-busy.jpg'>
+/* <img id='myrtleBeach' alt='myrtleBeach' src='img/myrtlebeach-lowprice-warm-highdensity-tropical.jpg'>
   <h2>Myrtle Beach, South Carolina</h2>
   //<p>   </p>
   expedia link (https://www.expedia.com/Hotel-Search?adults=2&children=&destination=Myrtle%20Beach%2C%20South%20Carolina%2C%20United%20States%20of%20America&endDate=2022-11-09&price=0&price=150&regionId=601685&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
-<img id='southPadreIsland' alt='southPadreIsland' src='img/hot-tropical-lowCost-highDensity.jpg'>
+<img id='southPadreIsland' alt='southPadreIsland' src='img/southpadre-lowprice-warm-highdensity-tropical.jpg'>
   <h2>South Padre Island, Texas</h2>
   //<p></p>
   expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=South%20Padre%20Island%2C%20Texas%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=South%20Padre%20Island%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=6046797&partialStay=false&price=0&price=120&regionId=6046797&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false) */
 
 //   2 not busy tropical high cost
 
-// <img id='lizardIsland' alt='lizardIsland' src='img/notBusy-tropical-hot-highCost.jpeg'>
+// <img id='lizardIsland' alt='lizardIsland' src='img/lizardisland-highprice-warm-lowdensity-tropical.jpeg'>
 // <h2>Lizard Island, Austrailia</h2>
 //<p></p>
 // expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Lizard%20Island%2C%20Queensland%2C%20Australia&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Lizard%20Island%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=6069833&partialStay=false&price=180&price=300&regionId=6069833&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
-// <img id='laucalaIsland' alt='laucalaIsland' src='img/hot-tropical-notBusy-expensive.jpg'>
+// <img id='laucalaIsland' alt='laucalaIsland' src='img/laucalaisland-highprice-warm-lowdensity-tropical.jpg'>
 //   <h2>Laucala Island, Fiji</h2>
 //<p></p>
 // expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Laucala%20Island%2C%20Northern%20Division%2C%20Fiji&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Laucala%20Island%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=8595&partialStay=false&price=90&price=300&regionId=8595&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 
 // 2 busy high cost tropical
 
-// <img id='hawaii' alt='hawaii' src='img/hot-tropical-highCost2-busy.jpg'>
+// <img id='hawaii' alt='hawaii' src='img/kauaihawaii-highprice-warm-highdensity-tropical.jpg'>
 // <h2>Kauai, Hawaii</h2>
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Kauai%2C%20Hawaii%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Kauai%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=150&price=300&regionId=180075&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
-// <img id='cookIslands' alt='cookIslands' src='img/hot-tropical-highCost-busy.jpg'>
+// <img id='cookIslands' alt='cookIslands' src='img/cookislands-highprice-warm-highdensity-tropical.jpg'>
 // <h2>Aitutaki, Cook Islands</h2>
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Aitutaki%2C%20Cook%20Islands&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Aitutaki%20Lagoon%20Private%20Island%20Resort%20-%20Adults%20Only%2CAspen&l10n=%5Bobject%20Object%5D&latLong=-18.84974%2C-159.757232&localDateFormat=M%2Fd%2Fyyyy&neighborhood=6055270&partialStay=false&price=180&price=300&regionId=6055270&selected=1096555&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 
 // 2 locations hot beach medium priced busy
 
-// <img id='jamaica' alt='jamaica' src='img/hot-beach-mediumCost-busy.jpg'>
+// <img id='jamaica' alt='jamaica' src='img/negriljamaica-mediumprice-warm-highdensity-beach.jpg'>
 //   <h2>Negril, Jamaica</h2>
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Seven%20Mile%20Beach%2C%20Negril%2C%20Jamaica&directFlights=false&endDate=2022-11-09&hotels-destination=Seven%20Mile%20Beach&hotels-destination=Aspen&l10n=%5Bobject%20Object%5D&latLong=18.298418%2C-78.339204&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=0%2C300&regionId=6078279&semdtl=&sort=RECOMMENDED&star=50&startDate=2022-11-08&theme=&useRewards=false&userIntent=)
-// <img id='rivieraMaya' alt='rivieraMaya' src='img/hot-mediumPrice-beach-notbusy.jpg'>
+// <img id='rivieraMaya' alt='rivieraMaya' src='img/rivieramaya-mediumprice-warm-highdensity-beach.jpg'>
 //   <h2>Riviera Maya, Mexico</h2>
 //<p></p>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Riviera%20Maya%2C%20Mexico&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Riviera%20Maya%2CAspen&l10n=%5Bobject%20Object%5D&latLong=20.553629%2C-87.167038&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&price=150&price=300&regionId=602901&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
@@ -241,12 +241,12 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 // 2 hot beach medium priced not busy
 
-// <img id='keyWest' alt='keyWest' src='img/hot-beach-mediumCost-lowDensity2.jpg'>
+// <img id='keyWest' alt='keyWest' src='img/keywest-mediumprice-warm-lowdensity-beach.jpg'>
 //   <h2>Key West, Florida</h2>
 /* <p></p> */
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Key%20West%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=key%20west%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=1187&partialStay=false&price=150&price=300&regionId=1187&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 // <p></p>
-// <img id='tybeeBeach' alt='tybeeBeach' src='img/hot-beach-mediumCost-lowDensity.jpg'>
+// <img id='tybeeBeach' alt='tybeeBeach' src='img/tybeebeach-mediumprice-warm-lowdensity-beach.jpg'>
 //   <h2>Tybee Island, Georgia</h2>
 /* <p></p> */
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Tybee%20Island%2C%20Georgia%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Tybee%20Island%2CAspen&l10n=%5Bobject%20Object%5D&latLong=32.000215%2C-80.845666&localDateFormat=M%2Fd%2Fyyyy&neighborhood=10128&partialStay=false&price=120&price=300&regionId=10128&semdtl=&sort=RECOMMENDED&star=&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
