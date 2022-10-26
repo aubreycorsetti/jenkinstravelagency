@@ -66,6 +66,7 @@ const option2 = document.getElementById("option2");
 const option3 = document.getElementById("option3");
 const submitBtn = document.getElementById("submit");
 
+
 let current = 0;
 let points = 0;
 
@@ -85,6 +86,7 @@ function loadQuestions() {
     option2.innerText = currentquestionArray.b;
     option3.innerText = currentquestionArray.c;
   }
+
 }
 
 function getSelected() {

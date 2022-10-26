@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-image: url('../img/welcome2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: 'Allerta Stencil', sans-serif;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+
+}
+
+main {
+  width: 100%;
+  min-height: 960px;
+  grid-template: 6/6;
+  display: grid;
+  background: rgb(221, 180, 159);
+  background: radial-gradient(circle, rgba(221, 180, 159, 0.25) 0%, rgba(44, 44, 52, 1) 100%);
+
+}
+
+h1 {
+  /* position: relative; */
+  padding: 3rem;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  border: 5px solid black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background: rgb(128, 128, 128, .5);
+  margin: auto;
+  border-radius: 1rem;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+main article section {
+  padding: 2rem;
+  margin: auto;
+  overflow: auto;
+  height: 500px;
+  width: 450px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+  background: rgb(128, 128, 128, .5);
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+img {
+  border-radius: 50rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+menu.menubar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-sizing: border-box;
+  font-family: 'allerta', sans-serif;
+  min-height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  width: 100%;
+}
+
+
+h2 {
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 30px;
+  font-style: italic;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
