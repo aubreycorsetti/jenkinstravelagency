@@ -73,8 +73,8 @@ div.answer-container {
 }
 
 div#response {
-  width: 220px;
-  height: 220px;
+  max-width: 220px;
+  max-height: 220px;
   background-color: rgba(255, 255, 255, 0.232);
   justify-content: space-evenly;
   margin: 1rem auto;
