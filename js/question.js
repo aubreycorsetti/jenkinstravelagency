@@ -1,3 +1,4 @@
+'use strict';
 //constructor function
 function Destination(
   name,
@@ -50,7 +51,7 @@ let rockefeller = new Destination(
   'abb',
   'jpg'
 );
-let aspen = new Destination('aspen', 'highprice', 'cold', 'highdensity', 'bbb', 'jpg');
+let aspen = new Destination('aspen', 'highprice', 'cold', 'highdensity','bbb' ,'jpg');
 let stmortiz = new Destination(
   'stmortiz',
   'highprice',
@@ -207,6 +208,7 @@ let cocoprive = new Destination(
   'jpeg'
 );
 
+
 let locations = [
   yellowstone,
   niagarafalls,
@@ -242,21 +244,21 @@ const questionArray = [
     a: 'Less than $150 per night',
     b: 'More than $150 per night',
     options: ['a', 'b'],
-    img: ['img/lowcost.png', 'img/mediumcost.png']
+    img:['img/lowcost.png','img/mediumcost.png']
   },
   {
     question: 'Serene Vacation vs. Super lit party central',
     a: 'Serene Vacation',
     b: 'Large Crowded Spot',
     options: ['a', 'b'],
-    img: ['img/notbusy.png', 'img/busy.png']
+    img:['img/notbusy.png','img/busy.png']
   },
   {
     question: 'Warmer vs Colder',
     a: 'Warmer',
     b: 'Colder',
     options: ['a', 'b'],
-    img: ['img/warm.png', 'img/cold.png']
+    img:['img/warm.png','img/cold.png']
   },
 
 ];
@@ -264,10 +266,9 @@ const questionArray = [
 
 const questionBox = document.getElementById('question');
 const answersElem = document.querySelectorAll('.question');
-/* const questions = document.getElementById('questions');
- */
-const img1 = document.getElementById('imgbox1');
-const img2 = document.getElementById('imgbox2');
+
+const img1=document.getElementById('imgbox1');
+const img2= document.getElementById('imgbox2');
 const option1 = document.getElementById('option1');
 const option2 = document.getElementById('option2');
 const submitBtn = document.getElementById('submit');
@@ -276,6 +277,7 @@ const responseContainer = document.getElementById('responseContainer');
 
 let current = 0;
 
+loadQuestions();
 
 function loadQuestions() {
   deselectAnswers();
@@ -284,11 +286,11 @@ function loadQuestions() {
   //answer options will be part of label.option element
   if (currentquestionArray.options.length === 2) {
     option1.innerHTML = currentquestionArray.a;
-    img1.innerHTML = `<img src=${currentquestionArray.img[0]} width="220px" alt="a" height="220px" id='imgA' class='responsive' />`;
+    img1.innerHTML=`<img src=${currentquestionArray.img[0]} width="220px" alt="a" height="220px" id='imgA' class='responsive' />`;
     option2.innerText = currentquestionArray.b;
-    img2.innerHTML = `<img src=${currentquestionArray.img[1]} width="220px" alt="b" height="220px" id='imgB' class='responsive' />`;
-  }
-}
+    img2.innerHTML=`<img src=${currentquestionArray.img[1]} width="220px" alt="b" height="220px" id='imgB' class='responsive' />`;
+  }}
+
 
 
 
@@ -326,25 +328,23 @@ function handleClick(event) {
       console.log(questionArray[current].a);
     } else if (event.target.alt === 'b') {
       console.log(questionArray[current].b);
-    } /* else if (event.target.alt === 'c') {
-      console.log(questionArray[0].c);
-    } */
+    } 
   }
 
 }
 
 
 
-let userAnswer = '';
+let userAnswer='';
 submitBtn.addEventListener('click', () => {
   const answer = getSelected();
   if (answer) {
     if (answer === 'a') {
       console.log(questionArray[current]['options'][0]);
-      userAnswer = userAnswer + questionArray[current]['options'][0];
+      userAnswer=userAnswer+questionArray[current]['options'][0];
     } else if (answer === 'b') {
       console.log(questionArray[current]['options'][1]);
-      userAnswer = userAnswer + questionArray[current]['options'][1];
+      userAnswer=userAnswer+questionArray[current]['options'][1];
     }
 
     current++;
@@ -358,16 +358,13 @@ submitBtn.addEventListener('click', () => {
     }
   }
 });
-function answerResult() {
-  for (let i = 0; i < locations.length; i++) {
-    if (userAnswer === locations[i].code) {
-      location.href = '../results.html';
-      questionBox.innerText = `Based on your answers we highly recommend ${locations[i].name}`;
+function answerResult(){
+  for(let i=0; i<locations.length; i++) {
+    if(userAnswer===locations[i].code){
+      location.href = 'results.html';
+      questionBox.innerText=`Based on your answers we highly recommend ${locations[i].name}`;
       console.log(`${locations[i].name.toUpperCase()} matches your preference!`);
-    }
-  }
-}
-loadQuestions();
+    }}}
 
 
 responseContainer.addEventListener('click', handleClick);

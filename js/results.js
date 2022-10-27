@@ -1,3 +1,4 @@
+'use strict';
 function Destination(
   name,
   price,
@@ -233,7 +234,7 @@ let locations = [
 ];
 
 let locationCode=localStorage.getItem('locationcode');
-let userName = localStorage.getItem('name');
+let userName=localStorage.getItem('name');
 let description1 = document.getElementById('description1');
 let locationSlist=document.createElement('ul');
 let locationpic=document.createElement('ul');
@@ -246,8 +247,7 @@ answerResult();
 function answerResult(){
   for(let i=0; i<locations.length; i++) {
     if(locationCode===locations[i].code){
-      /* location.href = '../results.html'; */
-      /* questionBox.innerText=`Based on your answers we highly recommend ${locations[i].name}`; */
+
       console.log(`${locations[i].name.toUpperCase()} matches your preference!`);
       let locationlist=document.createElement('li');
       locationlist.innerText=(`${locations[i].name.toUpperCase()} matches your preference!`);
@@ -255,7 +255,7 @@ function answerResult(){
 
 
       let locationimg=document.createElement('li');
-      imgBox.innerHTML=`<img src="../${locations[i].src}" width=240px height=auto>`;
+      imgBox.innerHTML=`<img src="${locations[i].src}" width=240px height=auto>`;
       locationpic.appendChild(locationimg);
     }
   }

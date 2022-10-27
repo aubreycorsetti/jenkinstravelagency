@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="../css/questionstyle.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Bungee+Hairline&family=Oswald:wght@500&display=swap"
     rel="stylesheet">
   <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/questionstyle.css">
   <title>Jenkins Travel Recommendations</title>
 </head>
 
@@ -39,12 +38,11 @@
           <input type="radio" name="question" class="question" id="a">
           <label id="option1"></label>
           <div class='img1'>
-            <img src="img/lowcost.png" width="220px" alt="a" height="220px" id='imgA' class='responsive' />
+            <span id="imgbox1"></span>
           </div>
         </div>
 
        <!--  <div id="response">
-
           <input type="radio" name="question" class="question" id="b">
           <label id="option2"></label>
           <div class='img2'>
@@ -57,7 +55,7 @@
           <input type="radio" name="question" class="question" id="b">
           <label id="option2"></label>
           <div class='img2'>
-            <img src="img/mediumcost.png" width="220px" alt="b" height="220px" id='imgB'class='responsive' />
+            <span id='imgbox2'></span>
           </div>
         </div>
       </div>
@@ -71,6 +69,6 @@
 </body>
 
 
-<script src="js/question.js" defer></script>
+<script src="js/question.js"></script>
 
 </html>
