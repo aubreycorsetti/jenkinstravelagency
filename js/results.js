@@ -263,7 +263,7 @@ let locationSlist=document.createElement('ul');
 let locationpic=document.createElement('ul');
 let imgBox=document.getElementById('pic1');
 description1.appendChild(locationSlist);
-let greeting=document.getElementById('greeting
+let greeting=document.getElementById('greeting');
 
 greeting.innerText=`${userName} here is the list of places you should visit!`;
 answerResult();
