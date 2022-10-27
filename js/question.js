@@ -13,32 +13,33 @@ function Destination(name, price, climate, density, code, fileextension = 'jpg',
 }
 //test location array//
 
-let niagarafalls = new Destination('niagarafalls', 'lowprice', 'cold', 'lowdensity', 'jpg');
-let yellowstone = new Destination('yellowstone', 'lowprice', 'cold', 'lowdensity', 'jpg');
-let niagara = new Destination('niagara', 'lowprice', 'cold', 'highdensity', 'jpg');
-let rockefeller = new Destination('rockefeller', 'lowprice', 'cold', 'highdensity', 'jpg');
-let aspen = new Destination('aspen', 'highprice', 'cold', 'highdensity', 'jpg');
-let stmortiz = new Destination('stmortiz', 'highprice', 'cold', 'highdensity', 'jpg');
-let kirkenes = new Destination('kirkenes', 'highprice', 'cold', 'lowdensity', 'jpg');
-let solitudemountain = new Destination('solitudemountain', 'highprice', 'cold', 'lowdensity', 'jpg');
+let niagarafalls = new Destination('niagarafalls', 'lowprice', 'cold', 'lowdensity', 'abb', 'jpg');
+let yellowstone = new Destination('yellowstone', 'lowprice', 'cold', 'lowdensity', 'abb', 'jpg');
+let niagara = new Destination('niagara', 'lowprice', 'cold', 'highdensity', 'aab', 'jpg');
+let rockefeller = new Destination('rockefeller', 'lowprice', 'cold', 'highdensity', 'aab', 'jpg');
+let aspen = new Destination('aspen', 'highprice', 'cold', 'highdensity', 'bab', 'jpg');
+let stmortiz = new Destination('stmortiz', 'highprice', 'cold', 'highdensity', 'bab', 'jpg');
+let kirkenes = new Destination('kirkenes', 'highprice', 'cold', 'lowdensity', 'bbb', 'jpg');
+let solitudemountain = new Destination('solitudemountain', 'highprice', 'cold', 'lowdensity', 'bbb', 'jpg');
 
-let grandcanyon = new Destination('grandcanyon', 'lowprice', 'warm', 'lowdensity', 'jpg', 'arid');
-let deathvalley = new Destination('deathvalley', 'lowprice', 'warm', 'lowdensity', 'jpg', 'arid');
-let lasvegas = new Destination('lasvegas', 'lowprice', 'warm', 'highdensity', 'jpg', 'arid');
-let sanantonio = new Destination('sanantonio', 'lowprice', 'warm', 'highdensity', 'jpg', 'arid');
-let hoggarmountains = new Destination('hoggarmountains', 'highprice', 'warm', 'lowdensity', 'jpg', 'arid');
-let pyramids = new Destination('pyramids', 'highprice', 'warm', 'highdensity', 'jpg', 'arid');
-let dubai = new Destination('dubai', 'highprice', 'warm', 'highdensity', 'jpg', 'arid');
-let expensivevegas = new Destination('expensivevegas', 'highprice', 'warm', 'highdensity', 'jpg', 'arid');
+let grandcanyon = new Destination('grandcanyon', 'lowprice', 'warm', 'lowdensity', 'abab', 'jpg', 'arid');
+let deathvalley = new Destination('deathvalley', 'lowprice', 'warm', 'lowdensity', 'abab', 'jpg', 'arid');
+let lasvegas = new Destination('lasvegas', 'lowprice', 'warm', 'highdensity', 'aaab', 'jpg', 'arid');
+let sanantonio = new Destination('sanantonio', 'lowprice', 'warm', 'highdensity', 'aaab', 'jpg', 'arid');
+let hoggarmountains = new Destination('hoggarmountains', 'highprice', 'warm', 'lowdensity', 'bbab', 'jpg', 'arid');
+let pyramids = new Destination('pyramids', 'highprice', 'warm', 'lowdensity', 'bbab', 'jpg', 'arid');
+let dubai = new Destination('dubai', 'highprice', 'warm', 'highdensity', 'baab', 'jpg', 'arid');
+let expensivevegas = new Destination('expensivevegas', 'highprice', 'warm', 'highdensity', 'baab', 'jpg', 'arid');
 
-let kepuhibeach = new Destination('kepuhibeach', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
-let montanadeoro = new Destination('montanadeoro', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
-let panamacitybeach = new Destination('panamacitybeach', 'lowprice', 'warm', 'lowdensity', 'png', 'beach');
-let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensity','jpeg', 'beach');
-let miami = new Destination('miami', 'highprice', 'warm', 'highdensity', 'jpeg', 'beach');
-let galapagos = new Destination('galapagos', 'highprice', 'warm', 'highdensity', 'jpg', 'beach');
-let parrotbay = new Destination('parrotbay', 'highprice', 'warm', 'lowdensity', 'jpeg', 'beach');
-let cocoprive = new Destination('cocoprive', 'highprice', 'warm', 'lowdensity', 'jpeg', 'beach');
+let pensacola = new Destination('pensacola', 'lowprice', 'warm', 'lowdensity', 'abaa', 'jpg', 'beach');
+let panamacitybeach = new Destination('panamacitybeach', 'lowprice', 'warm', 'lowdensity', 'abaa', 'png', 'beach');
+let southpadrebeach = new Destination('southpadrebeach', 'lowprice', 'warm', 'highdensity', 'aaaa', 'jpg', 'beach');
+let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensity', 'aaaa', 'jpeg', 'beach');
+let miami = new Destination('miami', 'highprice', 'warm', 'highdensity', 'baaa', 'jpeg', 'beach');
+let galapagos = new Destination('galapagos', 'highprice', 'warm', 'highdensity', 'baaa', 'jpg', 'beach');
+let parrotbay = new Destination('parrotbay', 'highprice', 'warm', 'lowdensity', 'bbaa', 'jpeg', 'beach');
+let cocoprive = new Destination('cocoprive', 'highprice', 'warm', 'lowdensity', 'bbaa', 'jpeg', 'beach');
+
 // let scottsdale = new Destination('scottsdale', 'mediumprice', 'warm', 'highdensity', 'jpg', 'arid');
 // let palmsprings = new Destination('palmsprings', 'mediumprice', 'warm', 'highdensity', 'jpg', 'arid');
 // let sedona = new Destination('sedona', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'arid');
@@ -51,7 +52,7 @@ let cocoprive = new Destination('cocoprive', 'highprice', 'warm', 'lowdensity', 
 // let hiltonhead = new Destination('hiltonhead', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'tropical');
 // let orlando = new Destination('orlando', 'mediumprice', 'warm', 'highdensity', 'jpg', 'tropical');
 // let santacruz = new Destination('santacruz', 'mediumprice', 'warm', 'highdensity', 'jpg', 'tropical');
-// let pensacola = new Destination('pensacola', 'lowprice', 'warm', 'lowdensity', 'jpg', 'tropical');
+// let kepuhibeach = new Destination('kepuhibeach', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'tropical');
 // let hohrainforest = new Destination('hohrainforest', 'lowprice', 'warm', 'lowdensity', 'jpg', 'tropical');
 // let myrtletropical = new Destination('myrtletropical', 'lowprice', 'warm', 'highdensity','jpg', 'tropical');
 // let southpadretropical = new Destination('southpadretropical', 'lowprice', 'warm', 'highdensity', 'jpg', 'tropical');
@@ -63,12 +64,12 @@ let cocoprive = new Destination('cocoprive', 'highprice', 'warm', 'lowdensity', 
 // let rivieramaya = new Destination('rivieramaya', 'mediumprice', 'warm', 'highdensity', 'jpg', 'beach');
 // let keywest = new Destination('keywest', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'beach');
 // let tybeebeach = new Destination('tybeebeach', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'beach');
+// let montanadeoro = new Destination('montanadeoro', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
 
 
 
 
-
-let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio, miami, galapagos, parrotbay, cocoprive, hoggarmountains, pyramids, dubai, expensivevegas, kirkenes, solitudemountain, kepuhibeach, montanadeoro, panamacitybeach, myrtlebeach];
+let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio, miami, galapagos, parrotbay, cocoprive, hoggarmountains, pyramids, dubai, expensivevegas, kirkenes, solitudemountain, pensacola, southpadrebeach, panamacitybeach, myrtlebeach];
 
 
 
