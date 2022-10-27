@@ -11,23 +11,25 @@ nav {
   height: 115px;
   background-color: rgba(207, 180, 146, 0.364);
   color: whitesmoke;
+  text-shadow: 1px 1px 4px rgba(113, 113, 113, 0.46), 1px 1px 4px #ccc;
+  display: flex;
 }
 
 nav li {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 18px;
   align-items: center;
   text-align: center;
   text-size-adjust: 25px;
   width: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: transparent tan;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1.5rem;
 
 }
@@ -42,7 +44,7 @@ ul li {
 }
 
 ul li:hover {
-  background: rgb(122, 115, 110);
+  background: rgba(122, 115, 110, 0.604);
 }
 
 ul li:hover ul {
@@ -120,6 +122,7 @@ h1 {
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  text-shadow: 1px 1px 4px rgba(113, 113, 113, 0.46), 1px 1px 4px #ccc;
 }
 
 article{
@@ -187,7 +190,7 @@ h2 {
   /* padding-bottom: 1rem; */
   font-size: 30px;
   font-style: italic;
-}
+  text-shadow: 1px 1px 4px rgba(113, 113, 113, 0.46), 1px 1px 4px #ccc;
 
 @keyframes fadeInAnimation {
   0% {
@@ -197,4 +200,5 @@ h2 {
   100% {
     opacity: 1;
   }
+}
 }
