@@ -154,13 +154,10 @@ menu.menubar {
   width: 100%;
 }
 
-span li
-{
-   display:block;
-   width:300px; 
-   height:auto; 
-   align-items: center;
-   margin: 0 auto;
+#pic1 ul {
+   display: flex;
+   flex-direction: column;
+  
 }
 
 h2 {
@@ -210,4 +207,3 @@ footer p {
   100% {
     opacity: 1;
   }
-}
