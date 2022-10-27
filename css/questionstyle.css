@@ -133,8 +133,6 @@ button {
   margin-top: 4rem;
 }
 
-.answer-container {
-=======
 div.answer-container {
 
   min-width: 60%;
@@ -235,5 +233,3 @@ footer p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-
-

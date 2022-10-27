@@ -113,7 +113,6 @@ const responseContainer = document.getElementById('responseContainer');
 
 
 let current = 0;
-let points = 0;
 
 loadQuestions();
 
@@ -125,7 +124,6 @@ function loadQuestions() {
   if (currentquestionArray.options.length === 2) {
     option1.innerText = currentquestionArray.a;
     option2.innerText = currentquestionArray.b;
-    option3.style.visibility = 'hidden';
   } else {
     option1.innerText = currentquestionArray.a;
     option2.innerText = currentquestionArray.b;
