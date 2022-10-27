@@ -6,7 +6,8 @@ function Destination(
   density,
   code,
   fileextension = 'jpg',
-  src
+  src,
+  expediaLink
 ) {
   this.name = name;
   this.price = price; //low,medium,high
@@ -15,6 +16,7 @@ function Destination(
   this.fileextension = fileextension;
   this.src = src;
   this.code = code;
+  this.expediaLink = expediaLink;
 }
 //test location array//
 
@@ -25,7 +27,8 @@ let niagarafalls = new Destination(
   'lowdensity',
   'aab',
   'jpg',
-  'img/niagarafalls-lowprice-cold-lowdensity.jpg'
+  'img/niagarafalls-lowprice-cold-lowdensity.jpg',
+  '[Visit Niagara Falls](https://www.expedia.com/Hotel-Search?adults=2&children=&destination=Niagara%20Falls%2C%20New%20York%2C%20United%20States%20of%20America&endDate=2022-11-09&price=0&price=120&regionId=602721&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)'
 );
 let yellowstone = new Destination(
   'Yellowstone National Park, Wyoming',
@@ -258,11 +261,14 @@ let locations = [
 
 let locationCode=localStorage.getItem('locationcode');
 let userName=localStorage.getItem('name');
+let expedia1 = document.getElementById('expedia1');
 let description1 = document.getElementById('description1');
 let locationSlist=document.createElement('ul');
+let locationsLink=document.createElement('ul');
 let locationpic=document.createElement('ul');
 let imgBox=document.getElementById('pic1');
 description1.appendChild(locationSlist);
+expedia1.appendChild(locationsLink);
 imgBox.appendChild(locationpic);
 let greeting=document.getElementById('greeting');
 
@@ -282,6 +288,10 @@ function answerResult(){
       let locationimg=document.createElement('li');
       locationimg.innerHTML=`<img src="${locations[i].src}" width=240px height=auto>`;
       locationpic.appendChild(locationimg);
+
+      let locationLink=document.createElement('li');
+      locationLink.innerHTML=(`${locations[i].expediaLink}`);
+      locationsLink.appendChild(locationLink);
     }
   }
 }
