@@ -69,10 +69,9 @@ let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmorti
 const questionArray = [
   {
     question: 'How much would you like to spend on your vacation?',
-    a: 'Less than $150',
-    b: 'Between $150 and $300',
-    c: 'More than $300',
-    options: ['a', 'b', 'c'],
+    a: 'Less than $150 per night',
+    b: 'More than $150 per night',
+    options: ['a', 'b'],
   },
   {
     question: 'Warmer vs Cooler/Colder',
@@ -83,9 +82,8 @@ const questionArray = [
   {
     question: 'Beach Vs. Arid vs. Tropical',
     a: 'Beach',
-    b: 'Arid',
-    c: 'Tropical',
-    options: ['a', 'b', 'c'],
+    b: 'Tropical'
+    options: ['a', 'b'],
   },
   {
     question: 'Large crowd vs. Serene Vacation',
@@ -101,7 +99,6 @@ const answersElem = document.querySelectorAll('.question');
  */
 const option1 = document.getElementById('option1');
 const option2 = document.getElementById('option2');
-const option3 = document.getElementById('option3');
 const submitBtn = document.getElementById('submit');
 const responseContainer = document.getElementById('responseContainer');
 
@@ -118,15 +115,8 @@ function loadQuestions() {
   //answer options will be part of label.option element
   if (currentquestionArray.options.length === 2) {
     option1.innerText = currentquestionArray.a;
-    option2.innerText = null;
-    option3.innerText = currentquestionArray.b;
-  } else {
-    option1.innerText = currentquestionArray.a;
     option2.innerText = currentquestionArray.b;
-    option3.innerText = currentquestionArray.c;
-  }
-
-}
+  } }
 
 function getSelected() {
   let answer = undefined;
@@ -162,8 +152,6 @@ function handleClick(event) {
       console.log(questionArray[0].a);
     } else if (event.target.alt === 'b') {
       console.log(questionArray[0].b);
-    } else if (event.target.alt === 'c') {
-      console.log(questionArray[0].c);
     }
   }
 
@@ -176,9 +164,7 @@ submitBtn.addEventListener('click', () => {
       points++;
     } else if (answer === 'b') {
       points++;
-    } else if (answer === 'c') {
-      points++;
-    }
+    };
 
     current++;
     if (current < questionArray.length) {

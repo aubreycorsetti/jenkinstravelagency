@@ -116,16 +116,17 @@ div.answer-container {
   display: grid;
   max-height: 640px;
   box-sizing: border-box;
-  margin-top: 1rem;
   border-radius: 1rem;
   grid-template-rows: 5fr;
   padding-bottom: 2rem;
+  grid-template-columns: auto;
 
 }
 
 #responseContainer {
   display: flex;
-  padding-left: 7rem;
+  grid-column: 2/3;
+ 
 }
 
 div#response {
@@ -133,7 +134,7 @@ div#response {
   max-height: 220px;
   background-color: rgba(255, 255, 255, 0.232);
   justify-content: space-evenly;
-  margin: 1rem auto;
+  margin:1rem auto 4rem;
   grid-row: 3;
   border-radius: 3px;
   border-radius: 1rem;
@@ -169,25 +170,8 @@ img.responsive {
   cursor: pointer;
 }
 
-button#submit {
-  grid-row-end: 6;
-  grid-column-end: 3;
-  border-radius: 1rem;
-  padding: 1rem;
-  font-size: 1.3rem;
-  background: rgba(84, 152, 82, 0.716);
-  border: 3px solid rgba(42, 11, 11, 0.04);
-  color: black;
-  font-weight: bold;
-  font-family: 'Bebas Neue', sans-serif;
-  text-shadow: 1px 1px 4px #fff, 1px 1px 4px #ccc;
-  cursor: pointer;
-}
 
 
-button#submit:hover {
-  background: rgb(255, 151, 32);
-}
 
 h2 {
   margin: 0;
@@ -205,5 +189,3 @@ footer p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-
-
