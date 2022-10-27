@@ -1,19 +1,17 @@
-//constructor function
 function Destination(
   name,
   price,
   climate,
   density,
   code,
-  fileextension = 'jpg',
-  location = undefined
+  fileextension = 'jpg'
 ) {
   this.name = name;
   this.price = price; //low,medium,high
   this.climate = climate; //warm,cold
   this.density = density; //highdensity, lowdensity
   this.fileextension = fileextension;
-  this.src = `img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`; //img link */
+  this.src = `img/${name}-${price}-${climate}-${density}.${fileextension}`; //img link */
   this.code = code;
 }
 //test location array//
@@ -258,161 +256,24 @@ let locations = [
   myrtlebeach,
 ];
 
-//sample questions//
+let locationCode=localStorage.getItem('locationcode');
+let description1 = document.getElementById('description1');
+let locationslist=document.createElement('ul');
+let imgBox=document.getElementById('pic1');
+description1.appendChild(locationslist);
 
-const questionArray = [
-  {
-    question: 'How much would you like to spend on your vacation?',
-    a: 'Less than $150 per night',
-    b: 'More than $150 per night',
-    options: ['a', 'b'],
-    img:['img/lowcost.png','img/mediumcost.png']
-  },
-  {
-    question: 'Serene Vacation vs. Super lit party central',
-    a: 'Serene Vacation',
-    b: 'Large Crowded Spot',
-    options: ['a', 'b'],
-    img:['img/notbusy.png','img/busy.png']
-  },
-  {
-    question: 'Warmer vs Colder',
-    a: 'Warmer',
-    b: 'Colder',
-    options: ['a', 'b'],
-    img:['img/warm.png','img/cold.png']
-  },
-  /* {
-    question: "Beach Vs. Arid",
-    a: "Tropical Beach",
-    b: "Arid",
-    options: ["a", "b"],
-  }, */
-];
+answerResult();
 
-
-const questionBox = document.getElementById('question');
-const answersElem = document.querySelectorAll('.question');
-/* const questions = document.getElementById('questions');
- */
-const img1=document.getElementsByClassName('img1');
-const img2= document.getElementsByClassName('img2');
-const option1 = document.getElementById('option1');
-const option2 = document.getElementById('option2');
-/* const option3 = document.getElementById('option3');
- */const submitBtn = document.getElementById('submit');
-const responseContainer = document.getElementById('responseContainer');
-
-
-let current = 0;
-
-loadQuestions();
-
-function loadQuestions() {
-  deselectAnswers();
-  const currentquestionArray = questionArray[current];
-  questionBox.innerText = currentquestionArray.question;
-  //answer options will be part of label.option element
-  if (currentquestionArray.options.length === 2) {
-    option1.innerText = currentquestionArray.a;
-    img1.innterText=`<img src=${currentquestionArray.img[0]} width="220px" alt="a" height="220px" id='imgA' class='responsive' />`;
-    option2.innerText = currentquestionArray.b;
-    img2.innterText=`<img src=${currentquestionArray.img[1]} width="220px" alt="b" height="220px" id='imgB' class='responsive' />`;
-
-  }}
-/*     option3.innerText = currentquestionArray.b;
- */ /* } else {
-    option1.innerText = currentquestionArray.a;
-    option2.innerText = currentquestionArray.b;
-    option3.innerText = currentquestionArray.c;
-  } */
-
-
-
-function getSelected() {
-  let answer = undefined;
-
-  answersElem.forEach((answersEl) => {
-    if (answersEl.checked) {
-      answer = answersEl.id;
-    }
-  });
-
-  return answer;
-}
-
-function deselectAnswers() {
-  answersElem.forEach((answersEl) => {
-    if (answersEl.checked) {
-      answersEl.checked = false;
-    }
-  });
-}
-
-function handleClick(event) {
-  console.log(event);
-  if (event.target === responseContainer) {
-    alert('Please click the select button or submit button.');
-  }
-
-  let clickedResponse = event.target.alt;
-  console.log(clickedResponse);
-  //console.log(questionArray[0].a);
-  for (let i = 0; i < questionArray.length; i++) {
-    if (event.target.alt === 'a') {
-      console.log(questionArray[current].a);
-    } else if (event.target.alt === 'b') {
-      console.log(questionArray[current].b);
-    } /* else if (event.target.alt === 'c') {
-      console.log(questionArray[0].c);
-    } */
-  }
-
-}
-
-
-
-let userAnswer='';
-submitBtn.addEventListener('click', () => {
-  const answer = getSelected();
-  if (answer) {
-    if (answer === 'a') {
-      console.log(questionArray[current]['options'][0]);
-      userAnswer=userAnswer+questionArray[current]['options'][0];
-    } else if (answer === 'b') {
-      console.log(questionArray[current]['options'][1]);
-      userAnswer=userAnswer+questionArray[current]['options'][1];
-    }
-
-    current++;
-    if (current < questionArray.length) {
-      loadQuestions();
-    } else if (current === questionArray.length) {
-      localStorage.setItem('locationcode', userAnswer);
-      answerResult();
-
-
-    }
-  }
-});
 function answerResult(){
   for(let i=0; i<locations.length; i++) {
-    if(userAnswer===locations[i].code){
-      location.href = '../results.html';
-      questionBox.innerText=`Based on your answers we highly recommend ${locations[i].name}`;
+    if(locationCode===locations[i].code){
+      /* location.href = '../results.html'; */
+      /* questionBox.innerText=`Based on your answers we highly recommend ${locations[i].name}`; */
       console.log(`${locations[i].name.toUpperCase()} matches your preference!`);
-    }}}
-
-
-
-/* else if(currentQuestion===questionArray.length) {
-  if(points >20 && points<=30){
-    quiz.innerHTML = `<h2>You got ${points} points. You like adventure.</h2> <button onclick="location.reload()">Reload</button>`;
-  }else if(points>10 && points<=20) {
-    quiz.innerHTML = `<h2>You got ${points} points. You like everything.</h2> <button onclick="location.reload()">Reload</button>`;
-  }else if (points>0 && points<=10) {
-    quiz.innerHTML = `<h2>You got ${points} points. You like peaceful retreat</h2> <button onclick="location.reload()">Reload</button>`;
+      let locationlist=document.createElement('li');
+      locationlist.innerText=(`${locations[i].name.toUpperCase()} matches your preference!`);
+      locationslist.appendChild(locationlist);
+      imgBox.innerHTML=`<img src="../${locations[i].src}" width=240px height=auto>`;
+    }
   }
-  } */
-
-responseContainer.addEventListener('click', handleClick);
+}
