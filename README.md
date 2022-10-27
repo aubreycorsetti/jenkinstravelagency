@@ -18,7 +18,7 @@ travel destination based on user input.
 * create a form with drop down select element and submit button
 * this uses mainly JavaScript
 * Helps you pick a destination
-MVP
+> MVP
 * constructor for destination
 * form/ submit for user information
 * background/images to click through to select type of destination
