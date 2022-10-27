@@ -257,7 +257,7 @@ let locations = [
 ];
 
 let locationCode=localStorage.getItem('locationcode');
-let userName=localStorage.getItem('name');
+let userName = localStorage.getItem('name');
 let description1 = document.getElementById('description1');
 let locationSlist=document.createElement('ul');
 let locationpic=document.createElement('ul');
