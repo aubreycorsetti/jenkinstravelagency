@@ -11,23 +11,24 @@ nav {
   height: 115px;
   background-color: rgba(207, 180, 146, 0.364);
   color: whitesmoke;
+  display: flex;
 }
 
 nav li {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 18px;
   align-items: center;
   text-align: center;
   text-size-adjust: 25px;
   width: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: transparent tan;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1.5rem;
 
 }
@@ -42,7 +43,7 @@ ul li {
 }
 
 ul li:hover {
-  background: rgb(122, 115, 110);
+  background: rgba(122, 115, 110, 0.604);
 }
 
 ul li:hover ul {
@@ -104,6 +105,7 @@ main {
 
 }
 
+
 h1 {
   /* position: relative; */
   padding: 3rem;
@@ -154,6 +156,7 @@ menu.menubar {
 }
 
 
+
 h2 {
   margin: 0;
   text-align: center;
@@ -161,6 +164,11 @@ h2 {
   font-size: 30px;
   font-style: italic;
 }
+h3{
+  text-align: center;
+  padding: 1rem;
+}
+
 
 .grid-container {
   margin: 7rem;
