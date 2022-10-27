@@ -10,7 +10,7 @@
 
 const questionarray = [
   {
-    question: 'How olde are you?',
+    question: 'How old are you?',
     answer1: 'under 21',
     answer1Total: '3',
     answer2: 'over 21',

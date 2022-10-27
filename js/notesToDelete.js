@@ -80,7 +80,7 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 // <h2>Miami Beach, Florida</h2>
 //<p>Miami Beach encompasses the man-made barrier islands between the Atlantic Ocean and Biscayne Bay. It is probably most famous for being the city that South Beach is locasted in. The night life is vibrant, exclusive, and celebrity filled. One unique aesthetic attribute of South Beach is the presence of several colorful and unique stands used by Miami Beach's lifeguards. The "foodie" scene is a growing part of the night life and includes several Michelin starred restaurants.</p>
-// img alt='miamiBeach' id='miamiBeach' src='img/miami-highprice-warm-highdensity-beach.jpeg'
+// img alt='miami' id='miami' src='img/miami-highprice-warm-highdensity-beach.jpeg'
 //https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Miami%20Beach%2C%20Florida%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&hotels-destination=Miami%20Beach&l10n=%5Bobject%20Object%5D&latLong=25.790653%2C-80.130043&localDateFormat=M%2Fd%2Fyyyy&partialStay=false&regionId=8833&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=
 // <h2>Galapagos Islands, Ecuador</h2>
 //<p>The Galapagos Islands are truly a delightful destination for nature lovers and this mesmerizing wonderland is home to countless birds, iguanas, huge turtles, and penguins. Its impeccable beauty lures travelers from across the world. Whether you are interested in adventurous excursions on your luxurious trip or want to explore the natural features like sky-high rock formations, volcanoes, and gorgeous beaches there is something for everyone on this island.</p>
@@ -196,11 +196,11 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 
 // 2 low cost tropical high-density
 
-/* <img id='myrtleBeach' alt='myrtleBeach' src='img/myrtlebeach-lowprice-warm-highdensity-tropical.jpg'>
+/* <img id='myrtleBeach' alt='myrtleBeach' src='img/myrtletropical-lowprice-warm-highdensity-tropical.jpg'>
   <h2>Myrtle Beach, South Carolina</h2>
   //<p>Myrtle Beach has an abundance of outdoor activities available for tourists to enjoy during their visit. There are over 80 golf courses to choose from in the local area. Water sport options are endless with access to the fresh water intracoastal waterway and the ocean.  </p>
   expedia link (https://www.expedia.com/Hotel-Search?adults=2&children=&destination=Myrtle%20Beach%2C%20South%20Carolina%2C%20United%20States%20of%20America&endDate=2022-11-09&price=0&price=150&regionId=601685&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
-<img id='southPadreIsland' alt='southPadreIsland' src='img/southpadre-lowprice-warm-highdensity-tropical.jpg'>
+<img id='southPadreIsland' alt='southPadreIsland' src='img/southpadretropical-lowprice-warm-highdensity-tropical.jpg'>
   <h2>South Padre Island, Texas</h2>
   //<p></p>
   expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=South%20Padre%20Island%2C%20Texas%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=South%20Padre%20Island%2CAspen&l10n=%5Bobject%20Object%5D&localDateFormat=M%2Fd%2Fyyyy&neighborhood=6046797&partialStay=false&price=0&price=120&regionId=6046797&semdtl=&sort=RECOMMENDED&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false) */
@@ -250,3 +250,22 @@ expedia link (https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=202
 //   <h2>Tybee Island, Georgia</h2>
 // expedia link(https://www.expedia.com/Hotel-Search?adults=2&d1=2022-11-08&d2=2022-11-09&destination=Tybee%20Island%2C%20Georgia%2C%20United%20States%20of%20America&directFlights=false&endDate=2022-11-09&guestRating=&hotelName=&hotels-destination=Tybee%20Island%2CAspen&l10n=%5Bobject%20Object%5D&latLong=32.000215%2C-80.845666&localDateFormat=M%2Fd%2Fyyyy&neighborhood=10128&partialStay=false&price=120&price=300&regionId=10128&semdtl=&sort=RECOMMENDED&star=&startDate=2022-11-08&theme=&useRewards=false&userIntent=&vip=false)
 //<p>Tybee Island is a barrier Island in Georgia, facing due east. It is home to clean beaches, and miles of beautiful sand barriers. It is the perfect summertime destination for those seeking fun on the beach! Towards the southern tip of the island is the bustling and iconic Tybrisa steet! This vibrant street is a place where tourist and locals alike, come to dine, shop and stay. You'll have no trouble fining rooms for $120 a night or less, ensuring an adventure of fun for the entire family.</p>
+
+
+// 2 lowprice-warm-lowdensity-beach
+// Kepuhi Beach, Molokai Island HI, low cost not busy
+// https://www.expedia.com/Maunaloa-Hotels-Ocean-View-Condo-In-Kepuhi-Beach.h70964255.Hotel-Information?chkin=2022-11-08&chkout=2022-11-09&x_pwa=1&rfrr=HSR&pwa_ts=1666720787669&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a2&regionId=180076&destination=Molokai%2C+Hawaii%2C+United+States+of+America&destType=MARKET&price=0%2C150&sort=RECOMMENDED&top_dp=92&top_cur=USD&userIntent=&selectedRoomType=70964255&selectedRatePlan=00044296c79750a840819572ea0cde20f51b&damageLiability=COF
+// <img id='kepuhibeach' alt='kepuhibeach' src='img/kepuhibeach-lowprice-warm-lowdensity-beach.jpeg'>
+// Montaña de Oro State Park, California low cost not busy
+// https://www.expedia.com/San-Luis-Obispo-Hotels-456-Embarcadero-Inn-Suites.h973233.Hotel-Information?chkin=2022-11-08&chkout=2022-11-09&x_pwa=1&rfrr=HSR&pwa_ts=1666721075609&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a2&regionId=553248621532639980&destination=Montana+De+Oro+State+Park%2C+Los+Osos%2C+California%2C+United+States+of+America&destType=MARKET&sort=RECOMMENDED&top_dp=131&top_cur=USD&userIntent=&selectedRoomType=201211272&selectedRatePlan=205735378
+// <img id='montanadeoro' alt='montanadeoro' src='img/montanadeoro-lowprice-warm-lowdensity-beach.jpeg'></img>
+
+
+// 2 lowprice-warm-highdensity-beach
+
+// Panama city,FL low cost busy
+// https://www.expedia.com/Panama-City-Hotels-Beachside-Resort-Panama-City-Beach.h904980.Hotel-Information?chkin=2022-11-08&chkout=2022-11-09&x_pwa=1&rfrr=HSR&pwa_ts=1666720475747&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a2&regionId=6048212&destination=Florida+Panhandle%2C+Florida%2C+United+States+of+America&destType=MARKET&sort=RECOMMENDED&top_dp=89&top_cur=USD&userIntent=&selectedRoomType=200313254&selectedRatePlan=201900022
+// <img id='panamacity' alt='panamacity' src='img/panamacitybeach-lowprice-warm-highdensity-beach.png'></img>
+// Myrtle Beach, South Carolina low cost busy
+// https://www.expedia.com/Myrtle-Beach-Hotels-Hilton-Myrtle-Beach-Resort.h19688.Hotel-Information?chkin=2022-11-08&chkout=2022-11-09&x_pwa=1&rfrr=HSR&pwa_ts=1666721385669&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a2&regionId=601685&destination=Myrtle+Beach%2C+South+Carolina%2C+United+States+of+America&destType=MARKET&neighborhoodId=553248635975857577&trackingData=AAAAEDMvFNLaWMlTia43HBIWPrL0r5W6X9swN_6b_VW59NvMj-IG0k0MQ2x3RRA29Syr0HyudIAm3vA1lAPk3DYwqc7-cdcEfvIH3nNvqa1WvyZDhBSwzd4QtA7XKrNrmZxsZVLrNw-p8R30RmQW8RGS2kF6bSUpQN3WQPw-77WAaPOhXnN2wfjjQubUIW_fI4Y-91gG0RuP2Vk2EyuDM3baSIiximrNTl-PPB4cKM3-eCvNjLPhGtZUfz5ebNqFlsZZzMfPIouNsHOvIoPmLZVsOU_FXJNi6eXN6LLFmoLBQC8YBBjv_pkE7LrFd-isjqUFf_bF5sWpOYiPjmTEhs3PGbuowicGx6b7uRrmYe2qnlk3VOSpWpf8ZxSv2lPySqQEgt3pviG_9paxvTLrw2_tLzzRL_UfYW8H7L2Xo_O9P2gDJKyRkssF8yibMyZwT70-OByU2A3XUpIRCYH5fZAe9cWPntVzCHLte2yEzF-M9A9LyrFeN_MfT4g5-g3uH21fsvAmOcGEeh2qiY8QnblxnAIL8pJ_kWYm1aX6RwfhNdohY7Iec3_Gy2OV5JyizKW2xQZMm3VdTf3Qs0SmnChrSmT93gaOqoiVNTbjQNKLaR72VpgD4e5dTH3ghC73LrX8kE2JYtQ5mOy832zFg66G1k98dtwPhHNmz5xk4ye9Ideflh7wJm8SkS1qgc1W8XwQ5r288Vv0o1BZYyB2rvbQUHxcMzavUkQRI4MNlW5tgNuYFQl1a-8WjRQCC5duwSWAGVsw_D9U7n9spPbNlpQfOsqw3EJBJK4Col2oUqx-mIACLSLFk9cUI_0T3kzuJBIAzHp_FCjFtVm7JWnS72kF_y4tPZN7FbJUZLhkaaj81fmU_2jJby86ti7MJbrab6FMl5MLMvodnMwNk7X-nvUHhyYJvPJajBDovC8VDlw5Mef6Ziy2L-op_2dpApBLaDEbttYGfcORAourfAi-lqGSct23zdJw-OW522N2QiQuTHUaX-rm1WayrFl4Hr1-3WiD05fYDNbZA9BHFVx5hfbUinjFfBwZ4w_2vs8BIkgN775_7w2LTD5Sc3Hhl8p-oEdVgZTpkv90gdvQMUpw5lZqmjt4D1Lki_Ut6H3HgH3BdsHT&rank=2&testVersionOverride=Buttercup%2C44204.0.0%2C44203.0.0%2C43549.129874.3%2C43550.131256.0%2C31936.102311.0%2C33775.98848.1%2C38414.114301.0%2C39483.0.0%2C38427.115718.1%2C42444.0.0%2C42589.0.0%2C42876.124673.0%2C42973.0.0%2C42974.0.0%2C42975.0.0%2C42976.0.0%2C42802.125960.1%2C33739.99567.0%2C37898.109354.0%2C37930.0.0%2C37949.0.0%2C37354.113955.1%2C43435.128144.0%2C44598.132304.0%2C44702.0.0&slots=&position=2&beaconIssued=2022-10-25T18%3A09%3A44&price=0%2C150&sort=RECOMMENDED&top_dp=134&top_cur=USD&userIntent=&selectedRoomType=336107&selectedRatePlan=254086301
+// <img id='myrtlebeach' alt='myrtlebeach' src='img/myrtlebeach-lowprice-warm-highdensity-beach.jpeg'></img>

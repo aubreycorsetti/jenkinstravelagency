@@ -1,74 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="../css/questionstyle.css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Bungee+Hairline&family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/questionstyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Bungee+Hairline&family=Oswald:wght@500&display=swap"
+    rel="stylesheet">
   <meta charset="UTF-8">
   <title>Jenkins Travel Recommendations</title>
 </head>
+
 <body class="container">
-<header>
-  <nav>
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="questionpage.html">Quiz</a></li>
-    <li><a href="results.html">Results</a></li>
-    <li><a href="about.html">About Us</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <div class="answer-container" id="questions">
-    <div id="question" class="option0">
-    </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="questionpage.html">Quiz</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="answer-container" id="questions">
+      <div id="question" class="option0">
+      </div>
 
 
+      <div id="responseContainer">
+        <div id="response">
 
-    <div id="response">
-
-      <input type="radio" name="question" class="question" id="a">
-      <label id="option1"></label>
-        <div class='img1'>
-          <img src="img/lowcost.png" width="220px" alt="test" height="220px" class='responsive'/>
-        </div>
-    </div>
-
-    <div id="response">
-      
-      <input type="radio" name="question" class="question" id="b">
-      <label id="option2"></label>
-        <div class='img2'>
-        <img src="img/mediumcost.png" width="220px"  alt="test" height="220px" class='responsive'/>
-        </div>
-    </div>
-
-    <div id="response">
-      
-      <input type="radio" name="question" class="question" id="c">  
-      <label id="option3"></label>
-        <div class='img3'>
-          <img src="img/highcost.png" width="220px"  alt="test" height="220px" class='responsive'/>
+          <!-- <input type="radio" name="question" class="question" id="a"> -->
+          <label id="option1"></label>
+          <div class='img1'>
+            <img src="img/lowcost.png" width="220px" alt="a" height="220px" class='responsive' />
+          </div>
         </div>
 
+        <div id="response">
+
+          <!-- <input type="radio" name="question" class="question" id="b"> -->
+          <label id="option2"></label>
+          <div class='img2'>
+            <img src="img/mediumcost.png" width="220px" alt="b" height="220px" class='responsive' />
+          </div>
+        </div>
+
+        <div id="response">
+
+          <!-- <input type="radio" name="question" class="question" id="c">   -->
+          <label id="option3"></label>
+          <div class='img3'>
+            <img src="img/highcost.png" width="220px" alt="c" height="220px" class='responsive' />
+          </div>
+
+        </div>
+      </div>
+      <button id="submit">Submit</button>
     </div>
 
-    <button id="submit">Submit</button>
-  </div>
-
-</main>
-<footer>
-  <p> &copy Jenkins Travel Recommendations</p>
-</footer>
+  </main>
+  <footer>
+    <p> &copy Jenkins Travel Recommendations</p>
+  </footer>
 </body>
-
-
-
 
 
 <script src="js/question.js" defer></script>
