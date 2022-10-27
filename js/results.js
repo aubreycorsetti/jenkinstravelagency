@@ -313,7 +313,7 @@ function answerResult() {
     if (locationCode === locations[i].code) {
       console.log(`${userName} matches your preference!`);
       let locationlist = document.createElement("li");
-      locationlist.innerText = `${locations[i].name.toUpperCase()}`;
+      locationlist.innerText = `${locations[i].name}`;
       locationSlist.appendChild(locationlist);
 
       let locationimg = document.createElement("li");
