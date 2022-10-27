@@ -1,3 +1,4 @@
+'use strict';
 function Destination(
   name,
   price,
@@ -204,30 +205,6 @@ let cocoprive = new Destination(
   'baa',
   'jpeg'
 );
-// let scottsdale = new Destination('scottsdale', 'mediumprice', 'warm', 'highdensity', 'jpg', 'arid');
-// let palmsprings = new Destination('palmsprings', 'mediumprice', 'warm', 'highdensity', 'jpg', 'arid');
-// let sedona = new Destination('sedona', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'arid');
-// let mojavedesert = new Destination('mojavedesert', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'arid');
-// let picturedrocksnational = new Destination('picturedrocksnational', 'mediumprice', 'cold', 'lowdensity', 'jpg');
-// let leavenworth = new Destination('leavenworth', 'mediumprice', 'cold', 'highdensity', 'jpg');
-// let asheville = new Destination('asheville', 'mediumprice', 'cold', 'lowdensity', 'jpeg');
-// let bigsky = new Destination('bigsky', 'mediumprice', 'cold', 'lowdensity', 'jpeg');
-// let grandcayman = new Destination('grandcayman', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'tropical');
-// let hiltonhead = new Destination('hiltonhead', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'tropical');
-// let orlando = new Destination('orlando', 'mediumprice', 'warm', 'highdensity', 'jpg', 'tropical');
-// let santacruz = new Destination('santacruz', 'mediumprice', 'warm', 'highdensity', 'jpg', 'tropical');
-// let pensacola = new Destination('pensacola', 'lowprice', 'warm', 'lowdensity', 'jpg', 'tropical');
-// let hohrainforest = new Destination('hohrainforest', 'lowprice', 'warm', 'lowdensity', 'jpg', 'tropical');
-// let myrtletropical = new Destination('myrtletropical', 'lowprice', 'warm', 'highdensity','jpg', 'tropical');
-// let southpadretropical = new Destination('southpadretropical', 'lowprice', 'warm', 'highdensity', 'jpg', 'tropical');
-// let lizardisland = new Destination('lizardisland', 'highprice', 'warm', 'lowdensity', 'jpeg', 'tropical');
-// let laucalaisland = new Destination('laucalaisland', 'highprice', 'warm', 'lowdensity', 'jpg', 'tropical');
-// let kauaihawaii = new Destination('kauaihawaii', 'highprice', 'warm', 'highdensity', 'jpg', 'tropical');
-// let cookislands = new Destination('cookislands', 'highprice', 'warm', 'highdensity', 'jpg', 'tropical');
-// let negriljamaica = new Destination('negriljamaica', 'mediumprice', 'warm', 'highdensity', 'jpg', 'beach');
-// let rivieramaya = new Destination('rivieramaya', 'mediumprice', 'warm', 'highdensity', 'jpg', 'beach');
-// let keywest = new Destination('keywest', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'beach');
-// let tybeebeach = new Destination('tybeebeach', 'mediumprice', 'warm', 'lowdensity', 'jpg', 'beach');
 
 let locations = [
   yellowstone,
@@ -257,7 +234,7 @@ let locations = [
 ];
 
 let locationCode=localStorage.getItem('locationcode');
-let userName = localStorage.getItem('name');
+let userName=localStorage.getItem('name');
 let description1 = document.getElementById('description1');
 let locationSlist=document.createElement('ul');
 let locationpic=document.createElement('ul');
@@ -270,8 +247,7 @@ answerResult();
 function answerResult(){
   for(let i=0; i<locations.length; i++) {
     if(locationCode===locations[i].code){
-      /* location.href = '../results.html'; */
-      /* questionBox.innerText=`Based on your answers we highly recommend ${locations[i].name}`; */
+
       console.log(`${locations[i].name.toUpperCase()} matches your preference!`);
       let locationlist=document.createElement('li');
       locationlist.innerText=(`${locations[i].name.toUpperCase()} matches your preference!`);
@@ -279,7 +255,7 @@ function answerResult(){
 
 
       let locationimg=document.createElement('li');
-      imgBox.innerHTML=`<img src="../${locations[i].src}" width=240px height=auto>`;
+      imgBox.innerHTML=`<img src="${locations[i].src}" width=240px height=auto>`;
       locationpic.appendChild(locationimg);
     }
   }

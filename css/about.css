@@ -108,7 +108,7 @@ main {
 }
 
 h1 {
-  /* position: relative; */
+
   padding: 3rem;
   text-align: center;
   font-family: 'Crimson Text', serif;
@@ -185,9 +185,8 @@ footer p {
 }
 
 h2 {
-  /* margin: 0; */
+  
   text-align: center;
-  /* padding-bottom: 1rem; */
   font-size: 30px;
   font-style: italic;
   text-shadow: 1px 1px 4px rgba(113, 113, 113, 0.46), 1px 1px 4px #ccc;
