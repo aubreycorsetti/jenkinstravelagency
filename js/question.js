@@ -1,7 +1,7 @@
 
 
 //constructor function
-function Destination(name, price, climate, density, fileextension = 'jpg', location = undefined) {
+function Destination(name, price, climate, density, code, fileextension = 'jpg', location = undefined) {
   this.name = name;
   this.price = price; //low,medium,high
   this.climate = climate; //warm,cold
@@ -9,11 +9,16 @@ function Destination(name, price, climate, density, fileextension = 'jpg', locat
   this.fileextension = fileextension;
   this.location = location; //beach, tropical, arid
   this.src = `img/${name}-${price}-${climate}-${density}-${location}.${fileextension}`;//img link */
+  this.code = code;
 }
 //test location array//
 
+let niagarafalls = new Destination('niagarafalls', 'lowprice', 'cold', 'lowdensity');
+=======
+
 
 let niagarafalls = new Destination('niagarafalls', 'lowprice', 'cold', 'lowdensity', 'jpg');
+
 let yellowstone = new Destination('yellowstone', 'lowprice', 'cold', 'lowdensity', 'jpg');
 let niagara = new Destination('niagara', 'lowprice', 'cold', 'highdensity', 'jpg');
 let rockefeller = new Destination('rockefeller', 'lowprice', 'cold', 'highdensity', 'jpg');
@@ -35,7 +40,12 @@ let expensivevegas = new Destination('expensivevegas', 'highprice', 'warm', 'hig
 let kepuhibeach = new Destination('kepuhibeach', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
 let montanadeoro = new Destination('montanadeoro', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
 let panamacitybeach = new Destination('panamacitybeach', 'lowprice', 'warm', 'lowdensity', 'png', 'beach');
+
+let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensity', 'jpeg', 'beach');
+let montanadeoro = new Destination('montanadeoro', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
+=======
 let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensity','jpeg', 'beach');
+
 let miami = new Destination('miami', 'highprice', 'warm', 'highdensity', 'jpeg', 'beach');
 let galapagos = new Destination('galapagos', 'highprice', 'warm', 'highdensity', 'jpg', 'beach');
 let parrotbay = new Destination('parrotbay', 'highprice', 'warm', 'lowdensity', 'jpeg', 'beach');
@@ -92,6 +102,10 @@ let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensit
 
 let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio, picturedrocksnational, leavenworth, asheville, bigsky, miami, galapagos, parrotbay, cocoprive, scottsdale, palmsprings, sedona, mojavedesert, hoggarmountains, pyramids, dubai, expensivevegas, grandcayman, hiltonhead, orlando, santacruz, kirkenes, solitudemountain, pensacola, hohrainforest, myrtletropical, southpadretropical, lizardisland, laucalaisland, kauaihawaii, cookislands, negriljamaica, rivieramaya, keywest, tybeebeach, kepuhibeach, montanadeoro, panamacitybeach, myrtlebeach];
 
+
+let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio, picturedrocksnational, leavenworth, asheville,];
+=======
+
 //sample questions//
 
 const questionArray = [
@@ -144,14 +158,14 @@ function loadQuestions() {
   //answer options will be part of label.option element
   if (currentquestionArray.options.length === 2) {
     option1.innerText = currentquestionArray.a;
-    option2.innerText = null;
-    option3.innerText = currentquestionArray.b;
+    option2.innerText = currentquestionArray.b;
+    option3.style.visibility = 'hidden';
   } else {
     option1.innerText = currentquestionArray.a;
     option2.innerText = currentquestionArray.b;
     option3.innerText = currentquestionArray.c;
+    option3.style.visibility = 'visible';
   }
-
 }
 
 function getSelected() {
@@ -173,6 +187,9 @@ function deselectAnswers() {
     }
   });
 }
+
+let userAnswers = '';
+=======
 
 function handleClick(event) {
   console.log(event);
@@ -203,16 +220,12 @@ function handleClick(event) {
 //   }
 // }
 
+
 submitBtn.addEventListener('click', () => {
   const answer = getSelected();
+  console.log(answer);
   if (answer) {
-    if (answer === 'a') {
-      points++;
-    } else if (answer === 'b') {
-      points++;
-    } else if (answer === 'c') {
-      points++;
-    }
+    userAnswers += answer;
 
     current++;
     if (current < questionArray.length) {
@@ -220,7 +233,10 @@ submitBtn.addEventListener('click', () => {
     } else if (current === questionArray.length) {
       alert('The end');
     }
+  } else {
+    alert('Not a valid answer');
   }
+  console.log(userAnswers);
 });
 /* else if(currentQuestion===questionArray.length) {
   if(points >20 && points<=30){

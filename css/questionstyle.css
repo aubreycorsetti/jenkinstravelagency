@@ -106,7 +106,37 @@ main {
 
 }
 
+
+menu.menubar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-sizing: border-box;
+  font-family: 'allerta', sans-serif;
+  min-height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+button {
+  background-color: peru;
+  display: block;
+  width: 100%;
+  font-family: 'Bungee Hairline';
+  border: none;
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 4rem;
+}
+
+.answer-container {
+=======
 div.answer-container {
+
   min-width: 60%;
   max-width: 80%;
   margin: 0 auto;
