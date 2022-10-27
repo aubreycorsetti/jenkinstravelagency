@@ -19,7 +19,7 @@ function Destination(
 //test location array//
 
 let niagarafalls = new Destination(
-  'niagarafalls',
+  'Niagara Falls, New York',
   'lowprice',
   'cold',
   'lowdensity',
@@ -28,7 +28,7 @@ let niagarafalls = new Destination(
   'img/niagarafalls-lowprice-cold-lowdensity.jpg'
 );
 let yellowstone = new Destination(
-  'yellowstone',
+  'Yellowstone National Park, Wyoming',
   'lowprice',
   'cold',
   'lowdensity',
@@ -37,7 +37,7 @@ let yellowstone = new Destination(
   'img/yellowstone-lowprice-cold-lowdensity.jpg'
 );
 let niagara = new Destination(
-  'niagara',
+  'Niagara Falls, New York',
   'lowprice',
   'cold',
   'highdensity',
@@ -46,7 +46,7 @@ let niagara = new Destination(
   'img/niagara-lowprice-cold-highdensity.jpg'
 );
 let rockefeller = new Destination(
-  'rockefeller',
+  'Rockefeller Center, New York',
   'lowprice',
   'cold',
   'highdensity',
@@ -54,9 +54,9 @@ let rockefeller = new Destination(
   'jpg',
   'img/rockefeller-lowprice-cold-highdensity.jpg'
 );
-let aspen = new Destination('aspen', 'highprice', 'cold', 'highdensity','bbb' ,'jpg', 'img/aspen-highprice-cold-highdensity.jpg');
+let aspen = new Destination('Aspen, Colorado', 'highprice', 'cold', 'highdensity','bbb' ,'jpg', 'img/aspen-highprice-cold-highdensity.jpg');
 let stmortiz = new Destination(
-  'stmortiz',
+  'St. Moritz, Switzerland',
   'highprice',
   'cold',
   'highdensity',
@@ -65,7 +65,7 @@ let stmortiz = new Destination(
   'img/stmortiz-highprice-cold-highdensity.jpg'
 );
 let kirkenes = new Destination(
-  'kirkenes',
+  'Kirkenes, Norway',
   'highprice',
   'cold',
   'lowdensity',
@@ -74,7 +74,7 @@ let kirkenes = new Destination(
   'img/kirkenes-highprice-cold-lowdensity.jpg'
 );
 let solitudemountain = new Destination(
-  'solitudemountain',
+  'Solitude Mountain, Utah',
   'highprice',
   'cold',
   'lowdensity',
@@ -84,7 +84,7 @@ let solitudemountain = new Destination(
 );
 
 let grandcanyon = new Destination(
-  'grandcanyon',
+  'Grand Canyon, Arizona',
   'lowprice',
   'warm',
   'lowdensity',
@@ -93,7 +93,7 @@ let grandcanyon = new Destination(
   'img/grandcanyon-lowprice-warm-lowdensity-arid.jpg'
 );
 let deathvalley = new Destination(
-  'deathvalley',
+  'Death Valley National Park, California',
   'lowprice',
   'warm',
   'lowdensity',
@@ -102,7 +102,7 @@ let deathvalley = new Destination(
   'img/deathvalley-lowprice-warm-lowdensity-arid.jpg'
 );
 let lasvegas = new Destination(
-  'lasvegas',
+  'Las Vegas, Nevada',
   'lowprice',
   'warm',
   'highdensity',
@@ -111,7 +111,7 @@ let lasvegas = new Destination(
   'img/lasvegas-lowprice-warm-highdensity-arid.jpg'
 );
 let sanantonio = new Destination(
-  'sanantonio',
+  'San Antonio, Texas',
   'lowprice',
   'warm',
   'highdensity',
@@ -120,7 +120,7 @@ let sanantonio = new Destination(
   'img/sanantonio-lowprice-warm-highdensity-arid.jpg'
 );
 let hoggarmountains = new Destination(
-  'hoggarmountains',
+  'Hoggar Mountains, Algeria',
   'highprice',
   'warm',
   'lowdensity',
@@ -129,7 +129,7 @@ let hoggarmountains = new Destination(
   'img/hoggarmountains-highprice-warm-lowdensity-arid.jpg'
 );
 let pyramids = new Destination(
-  'pyramids',
+  'Pyramids at Giza, Egypt',
   'highprice',
   'warm',
   'highdensity',
@@ -138,7 +138,7 @@ let pyramids = new Destination(
   'img/pryamids-highprice-warm-lowdensity-arid.jpg'
 );
 let dubai = new Destination(
-  'dubai',
+  'Dubai, UAE',
   'highprice',
   'warm',
   'highdensity',
@@ -147,7 +147,7 @@ let dubai = new Destination(
   'img/dubai-highprice-warm-highdensity-arid.jpg'
 );
 let expensivevegas = new Destination(
-  'expensivevegas',
+  'Las Vegas, Nevada',
   'highprice',
   'warm',
   'highdensity',
@@ -157,7 +157,7 @@ let expensivevegas = new Destination(
 );
 
 let kepuhibeach = new Destination(
-  'kepuhibeach',
+  'Kepuhi Beach, Molokai Island, Hawaii',
   'lowprice',
   'warm',
   'lowdensity',
@@ -166,7 +166,7 @@ let kepuhibeach = new Destination(
   'img/kepuhibeach-lowprice-warm-lowdensity-beach.jpeg'
 );
 let montanadeoro = new Destination(
-  'montanadeoro',
+  'Montaña de Oro State Park, California',
   'lowprice',
   'warm',
   'lowdensity',
@@ -175,7 +175,7 @@ let montanadeoro = new Destination(
   'img/montanadeoro-lowprice-warm-lowdensity-beach.jpeg'
 );
 let panamacitybeach = new Destination(
-  'panamacitybeach',
+  'Panama City, Florida',
   'lowprice',
   'warm',
   'lowdensity',
@@ -184,7 +184,7 @@ let panamacitybeach = new Destination(
   'img/panamacitybeach-lowprice-warm-lowdensity-beach.png'
 );
 let myrtlebeach = new Destination(
-  'myrtlebeach',
+  'Myrtle Beach, South Carolina',
   'lowprice',
   'warm',
   'highdensity',
@@ -193,7 +193,7 @@ let myrtlebeach = new Destination(
   'img/myrtletropical-lowprice-warm-highdensity-tropical.jpg'
 );
 let miami = new Destination(
-  'miami',
+  'Miami Beach, Florida',
   'highprice',
   'warm',
   'highdensity',
@@ -202,7 +202,7 @@ let miami = new Destination(
   'img/miami-highprice-warm-highdensity-beach.jpeg'
 );
 let galapagos = new Destination(
-  'galapagos',
+  'Galapagos Islands, Ecuador',
   'highprice',
   'warm',
   'highdensity',
@@ -211,7 +211,7 @@ let galapagos = new Destination(
   'img/galapagos-highprice-warm-highdensity-beach.jpg'
 );
 let parrotbay = new Destination(
-  'parrotbay',
+  'Parrot Cay, Turks And Caicos',
   'highprice',
   'warm',
   'lowdensity',
@@ -220,7 +220,7 @@ let parrotbay = new Destination(
   'img/parrotbay-highprice-warm-lowdensity-beach.jpeg'
 );
 let cocoprive = new Destination(
-  'cocoprive',
+  'Coco Privé, Maldives',
   'highprice',
   'warm',
   'lowdensity',
@@ -275,7 +275,7 @@ function answerResult(){
       /* questionBox.innerText=`Based on your answers we highly recommend ${locations[i].name}`; */
       console.log(`${locations[i].name.toUpperCase()} matches your preference!`);
       let locationlist=document.createElement('li');
-      locationlist.innerText=(`${locations[i].name.toUpperCase()} matches your preference!`);
+      locationlist.innerText=(`${locations[i].name} matches your preference!`);
       locationSlist.appendChild(locationlist);
 
 
