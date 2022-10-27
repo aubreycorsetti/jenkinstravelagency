@@ -47,7 +47,7 @@ let kirkenes = new Destination('kirkenes', 'highprice', 'cold', 'lowdensity', 'j
 let solitudemountain = new Destination('solitudemountain', 'highprice', 'cold', 'lowdensity', 'jpg');
 let pensacola = new Destination('pensacola', 'lowprice', 'warm', 'lowdensity', 'jpg', 'tropical');
 let hohrainforest = new Destination('hohrainforest', 'lowprice', 'warm', 'lowdensity', 'jpg', 'tropical');
-let myrtletropical = new Destination('myrtletropical', 'lowprice', 'warm', 'highdensity','jpg', 'tropical');
+let myrtletropical = new Destination('myrtletropical', 'lowprice', 'warm', 'highdensity', 'jpg', 'tropical');
 let southpadretropical = new Destination('southpadretropical', 'lowprice', 'warm', 'highdensity', 'jpg', 'tropical');
 let lizardisland = new Destination('lizardisland', 'highprice', 'warm', 'lowdensity', 'jpeg', 'tropical');
 let laucalaisland = new Destination('laucalaisland', 'highprice', 'warm', 'lowdensity', 'jpg', 'tropical');
@@ -60,9 +60,9 @@ let tybeebeach = new Destination('tybeebeach', 'mediumprice', 'warm', 'lowdensit
 let kepuhibeach = new Destination('kepuhibeach', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
 let montanadeoro = new Destination('montanadeoro', 'lowprice', 'warm', 'lowdensity', 'jpeg', 'beach');
 let panamacitybeach = new Destination('panamacitybeach', 'lowprice', 'warm', 'lowdensity', 'png', 'beach');
-let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensity','jpeg', 'beach');
+let myrtlebeach = new Destination('myrtlebeach', 'lowprice', 'warm', 'highdensity', 'jpeg', 'beach');
 
-let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio,picturedrocksnational, leavenworth, asheville, bigsky, miami, galapagos, parrotbay, cocoprive, scottsdale, palmsprings, sedona, mojavedesert, hoggarmountains, pyramids, dubai, expensivevegas, grandcayman, hiltonhead, orlando, santacruz, kirkenes, solitudemountain, pensacola, hohrainforest, myrtletropical, southpadretropical, lizardisland, laucalaisland, kauaihawaii, cookislands, negriljamaica, rivieramaya, keywest, tybeebeach, kepuhibeach, montanadeoro, panamacitybeach, myrtlebeach];
+let locations = [yellowstone, niagarafalls, niagara, rockefeller, aspen, stmortiz, grandcanyon, deathvalley, lasvegas, sanantonio, picturedrocksnational, leavenworth, asheville, bigsky, miami, galapagos, parrotbay, cocoprive, scottsdale, palmsprings, sedona, mojavedesert, hoggarmountains, pyramids, dubai, expensivevegas, grandcayman, hiltonhead, orlando, santacruz, kirkenes, solitudemountain, pensacola, hohrainforest, myrtletropical, southpadretropical, lizardisland, laucalaisland, kauaihawaii, cookislands, negriljamaica, rivieramaya, keywest, tybeebeach, kepuhibeach, montanadeoro, panamacitybeach, myrtlebeach];
 
 //sample questions//
 
@@ -157,17 +157,25 @@ function handleClick(event) {
   let clickedResponse = event.target.alt;
   console.log(event.target.alt);
   //console.log(questionArray[0].a);
-  for (let i = 0; i < questionArray.length; i++) {
-    if (event.target.alt === 'a') {
-      console.log(questionArray[0].a);
-    } else if (event.target.alt === 'b') {
-      console.log(questionArray[0].b);
-    } else if (event.target.alt === 'c') {
-      console.log(questionArray[0].c);
-    }
+  //for (let i = 0; i < questionArray.length; i++) {
+  if (event.target.alt === 'a') {
+    console.log(questionArray[0].a);
+  } else if (event.target.alt === 'b') {
+    console.log(questionArray[0].b);
+  } else if (event.target.alt === 'c') {
+    console.log(questionArray[0].c);
+    //}
   }
-
+  current++;
+  loadQuestions();
 }
+// function displayResults() {
+//   for (let i = 0; i < questionArray.length; i++) {
+//     let li = document.createElement('li');
+//     li.textContent = `${inventoryArray[i].name}: ${inventoryArray[i].votes} votes and ${inventoryArray[i].display} views.`;
+//     viewResults.appendChild(li);
+//   }
+// }
 
 submitBtn.addEventListener('click', () => {
   const answer = getSelected();
