@@ -1,7 +1,4 @@
-
-'use strict';
-
-
+'use strict'
 
 //constructor function
 function Destination(
