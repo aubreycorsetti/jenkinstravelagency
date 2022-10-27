@@ -1,5 +1,3 @@
-'use strict'
-
 //constructor function
 function Destination(
   name,
@@ -297,12 +295,11 @@ const questionBox = document.getElementById('question');
 const answersElem = document.querySelectorAll('.question');
 /* const questions = document.getElementById('questions');
  */
-const img1=document.getElementsByClassName('img1');
-const img2= document.getElementsByClassName('img2');
+const img1=document.getElementById('imgbox1');
+const img2= document.getElementById('imgbox2');
 const option1 = document.getElementById('option1');
 const option2 = document.getElementById('option2');
-/* const option3 = document.getElementById('option3');
- */const submitBtn = document.getElementById('submit');
+const submitBtn = document.getElementById('submit');
 const responseContainer = document.getElementById('responseContainer');
 
 
@@ -316,11 +313,10 @@ function loadQuestions() {
   questionBox.innerText = currentquestionArray.question;
   //answer options will be part of label.option element
   if (currentquestionArray.options.length === 2) {
-    option1.innerText = currentquestionArray.a;
-    img1.innterText=`<img src=${currentquestionArray.img[0]} width="220px" alt="a" height="220px" id='imgA' class='responsive' />`;
+    option1.innerHTML = currentquestionArray.a;
+    img1.innerHTML=`<img src=${currentquestionArray.img[0]} width="220px" alt="a" height="220px" id='imgA' class='responsive' />`;
     option2.innerText = currentquestionArray.b;
-    img2.innterText=`<img src=${currentquestionArray.img[1]} width="220px" alt="b" height="220px" id='imgB' class='responsive' />`;
-
+    img2.innerHTML=`<img src=${currentquestionArray.img[1]} width="220px" alt="b" height="220px" id='imgB' class='responsive' />`;
   }}
 /*     option3.innerText = currentquestionArray.b;
  */ /* } else {
