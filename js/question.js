@@ -1,6 +1,7 @@
 
 
 //constructor function
+
 function Destination(name, price, climate, density, code, fileextension = 'jpg', location = undefined) {
   this.name = name;
   this.price = price; //low,medium,high
