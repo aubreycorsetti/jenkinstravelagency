@@ -130,7 +130,7 @@ button {
   margin-top: 4rem;
 }
 
-div.answer-container {
+.answer-container {
   min-width: 60%;
   max-width: 80%;
   margin: 0 auto;
