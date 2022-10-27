@@ -5,9 +5,6 @@
 
 
 
-
-
-
 const questionarray = [
   {
     question: 'How old are you?',
