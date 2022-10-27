@@ -265,7 +265,7 @@ let imgBox=document.getElementById('pic1');
 description1.appendChild(locationSlist);
 let greeting=document.getElementById('greeting');
 
-greeting.innerText=`${userName} here is the list of places you should visit!`;
+greeting.innerText=`${userName}, here is the list of places you should visit!`;
 answerResult();
 function answerResult(){
   for(let i=0; i<locations.length; i++) {
@@ -282,3 +282,4 @@ function answerResult(){
     }
   }
 }
+
