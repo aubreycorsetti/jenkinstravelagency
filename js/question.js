@@ -1,3 +1,8 @@
+
+'use strict';
+
+
+
 //constructor function
 function Destination(
   name,

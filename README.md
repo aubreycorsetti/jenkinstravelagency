@@ -30,29 +30,29 @@ travel destination based on user input.
 
 1. Landing page. This page is where we take the users information and provide a welcome screen.
 
-![Landing welcome page](img/landingWF.png)
+![Landing welcome page](readIMG/landingWF.png)
 
 2. Home page. This page will include the quiz to determine where you should take your vacation.
 
-![Home page](img/homeWF.png)
+![Home page](readIMG/homeWF.png)
 
 3. Results page. This page will display user results in a grid format.
 
-![Results page](img/resultsWF.png)
+![Results page](readIMG/resultsWF.png)
 
 4. About page. This page will give our 30-60 second professional pitch about us.
 
-![About page](img/aboutWF.png)
+![About page](readIMG/aboutWF.png)
 
 Here is the link to our Project Board!
 [User Stories](https://trello.com/b/7IhEcyNt/leeroy-jenkins-travel-agency)
 
 Here is our Domain Model
 
-![Domain Model](img/modelDomain.png)
+![Domain Model](readIMG/modelDomain.png)
 
 Database Schema Diagram
 
-![Schema Diagram](img/schema.png)
+![Schema Diagram](readIMG/schema.png)
 
 Thank you!
