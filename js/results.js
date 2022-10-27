@@ -257,7 +257,6 @@ let locations = [
 ];
 
 let locationCode=localStorage.getItem('locationcode');
-
 let userName=localStorage.getItem('name');
 let description1 = document.getElementById('description1');
 let locationSlist=document.createElement('ul');
@@ -268,7 +267,6 @@ let greeting=document.getElementById('greeting');
 
 greeting.innerText=`${userName} here is the list of places you should visit!`;
 answerResult();
-
 function answerResult(){
   for(let i=0; i<locations.length; i++) {
     if(locationCode===locations[i].code){
@@ -277,12 +275,10 @@ function answerResult(){
       console.log(`${locations[i].name.toUpperCase()} matches your preference!`);
       let locationlist=document.createElement('li');
       locationlist.innerText=(`${locations[i].name.toUpperCase()} matches your preference!`);
-
       locationSlist.appendChild(locationlist);
       let locationimg=document.createElement('li');
       imgBox.innerHTML=`<img src="../${locations[i].src}" width=240px height=auto>`;
       locationpic.appendChild(locationimg);
-
     }
   }
 }
