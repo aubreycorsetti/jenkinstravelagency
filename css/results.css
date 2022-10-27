@@ -46,13 +46,8 @@ ul li {
   display: inline-block;
 }
 
-ul li:hover {
-  background: rgba(122, 115, 110, 0.604);
-}
 
-ul li:hover ul {
-  display: block;
-}
+
 
 ul li ul {
   text-decoration: none;
