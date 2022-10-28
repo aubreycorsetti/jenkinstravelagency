@@ -6,7 +6,8 @@
   font-family: 'Bungee Hairline', cursive;
   font-family: 'Oswald', sans-serif;
 }
-#gridimg{
+
+#gridimg {
   max-width: 280px;
 }
 
@@ -61,7 +62,7 @@ ul li ul {
 }
 
 a {
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   padding: 1rem;
 }
 
@@ -155,9 +156,19 @@ menu.menubar {
 }
 
 #pic1 ul {
-   display: flex;
-   flex-direction: column;
-  
+  display: flex;
+  flex-direction: column;
+
+}
+
+#expedia1 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#description1 ul {
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
@@ -167,7 +178,8 @@ h2 {
   font-size: 30px;
   font-style: italic;
 }
-h3{
+
+h3 {
   text-align: center;
   padding: 1rem;
 }
@@ -180,6 +192,7 @@ h3{
   background-color: transparent tan;
   padding: 10px;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
