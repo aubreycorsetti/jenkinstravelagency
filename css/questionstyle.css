@@ -206,3 +206,18 @@ footer p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+iframe{
+  align-items: center;
+  align-content: center;
+  display:block;
+  margin: auto;
+}
+
+img.leeroy{
+  align-items: center;
+  align-content: center;
+  display:block;
+  margin: auto;
+}
+
