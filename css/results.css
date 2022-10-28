@@ -161,12 +161,12 @@ menu.menubar {
 
 }
 
-#expedia1 {
+#expedia1 ul {
   display: flex;
   flex-direction: column;
 }
 
-#description1 {
+#description1 ul {
   display: flex;
   flex-direction: column;
 }
