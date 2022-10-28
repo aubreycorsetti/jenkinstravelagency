@@ -1,0 +1,152 @@
+
+
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Oswald', sans-serif;
+  
+  
+  }
+  body{
+    
+    box-sizing: border-box;
+    background: #c3c3c3d3;
+    font-family: 'Allerta Stencil', sans-serif;
+    align-items: center;
+    position: relative;
+  
+  
+  }
+  main{
+    width: 80%;
+    margin: 3rem auto;
+  }
+  
+  menu.menubar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-sizing: border-box;
+    font-family: 'allerta', sans-serif;
+    min-height: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    width: 100%;
+  }
+  
+  div.question-container{
+  width: 80%;
+  margin: 7rem auto;
+  background-color: bisque;
+  min-height: 320px;
+  padding: 1rem 1rem;
+  display: grid;
+  text-align: center;
+  padding: 1rem 2rem;
+  
+  }
+  button {
+    background-color: peru;
+    display: block;
+    width: 100%;
+    font-family: 'Bungee Hairline';
+    border: none;
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  div.btns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+    font-family: 'Bungee Hairline';
+  }
+  .previous-btn{
+    font-size: 1rem;
+    font-weight: bold;
+    padding:1rem;
+    border: solid black 1px;
+    border-radius: 0.5rem;
+  }
+  .next-btn{
+    font-size: 1rem;
+    font-weight: bold;
+    padding:1rem;
+    border: solid black 1px;
+    border-radius: 0.5rem;
+  
+  }
+  
+  ul{
+    list-style: none;
+    margin: auto;
+  }
+/*   .button {
+    border: solid black 1px;
+    color: rgb(12, 12, 12);
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 1.5rem auto;
+    cursor: pointer;
+  } */
+  
+  .q1, .q3, .q2 {background-color: #3e7ef4a0;} 
+  .q1:active, .q3:active, .q2:active {background-color: #7eff83a0;} 
+  
+
+
+
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 6px -6px #777;
+
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #1460ac;
+}
+
+button:focus {
+  outline: none;
+  background-color: #1460ac;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <script src="js/app.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Bungee+Hairline&family=Oswald:wght@500&display=swap"
+    rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <style>  
+    body  
+    {  
+    background-image:url("img/welcome2.avif");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    }  
+    </style>  
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+    <div class="fade-in">
+      <img src="img/leeroy_jenkinslogo.jpeg" alt="LeeRoy Jenkins travel recommendations logo" height="320px">
+    </div>
+    <section class="intro">
+      <p> To discover a destination that best fits your desires, please complete the form below.</p>
+    </section>
+    <section class="form">
+      <aside>
+        <form id='userForm' onclick="addlocal()" action="questionpage.html">
+          <fieldset>
+            <label>Name: <input id='userInput' type="text" name="Name" placeholder="Ex: Leeroy Jenkins" required onclick="addlocal()">
+              <button id='userSubmit' type="submit" onclick="addlocal()">Submit</button>
+            </label>
+          </fieldset>
+        </form>
+      </aside>
+    </section>
+  </main>
+  <footer>
+<p> &copy Jenkins Travel Recommendations</p>
+  </footer>
+
+</body>
+</html>

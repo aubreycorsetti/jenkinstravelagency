@@ -18,9 +18,41 @@ travel destination based on user input.
 * create a form with drop down select element and submit button
 * this uses mainly JavaScript
 * Helps you pick a destination
-MVP
+> MVP
 * constructor for destination
 * form/ submit for user information
 * background/images to click through to select type of destination
 * results in a table format with destination information
 * a way to log clicks in local storage/get storage
+
+
+### WIRE-FRAME
+
+1. Landing page. This page is where we take the users information and provide a welcome screen.
+
+![Landing welcome page](readIMG/landingWF.png)
+
+2. Home page. This page will include the quiz to determine where you should take your vacation.
+
+![Home page](readIMG/homeWF.png)
+
+3. Results page. This page will display user results in a grid format.
+
+![Results page](readIMG/resultsWF.png)
+
+4. About page. This page will give our 30-60 second professional pitch about us.
+
+![About page](readIMG/aboutWF.png)
+
+Here is the link to our Project Board!
+[User Stories](https://trello.com/b/7IhEcyNt/leeroy-jenkins-travel-agency)
+
+Here is our Domain Model
+
+![Domain Model](readIMG/modelDomain.png)
+
+Database Schema Diagram
+
+![Schema Diagram](readIMG/schema.png)
+
+Thank you!
