@@ -160,16 +160,6 @@ menu.menubar {
   
 }
 
-#description1 ul {
-  display: flex;
-   flex-direction: column;
-}
-
-#expedia1 ul {
-  display: flex;
-   flex-direction: column;
-}
-
 h2 {
   margin: 0;
   text-align: center;
